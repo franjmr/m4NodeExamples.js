@@ -10,7 +10,9 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "m4NodeJsDev": "ts-node-dev --respawn --transpileOnly ./__src__/nodejs.ts"
+    "devExecuteRequest": "ts-node-dev --respawn --transpileOnly ./__src__/executeRequest.ts",
+    "devLogon": "ts-node-dev --respawn --transpileOnly ./__src__/logon.ts",
+    "devLoadMetadata": "ts-node-dev --respawn --transpileOnly ./__src__/loadMetadata.ts"
   },
   "author": "franjmr",
   "license": "ISC",
