@@ -9,13 +9,13 @@ async function example(){
 
     await m4apinode.logonPromise();
 
-    await m4apinode.loadMetadataPromise(['PSCO_WDG_MY_TASKS']);
+    await m4apinode.loadMetadataPromise(['PLCO_LOAD_ALL_PERSONAL_INFO']);
     
-    const request = await m4apinode.executeMethodPromise("PSCO_WDG_MY_TASKS", "PSCO_WDG_MY_TASKS", "PLCO_LOAD", [null]);
+    const request = await m4apinode.executeMethodPromise("PLCO_LOAD_ALL_PERSONAL_INFO", "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
     const objRequest = request.getObject();
     if( objRequest ){
-        const nodeRequest = objRequest.getNode("PSCO_WDG_FUNC_PROCESSES");
-        console.log("Method executed ok! Number of records is: " + nodeRequest.count());
+        const nodeRequest = objRequest.getNode("PLCO_PERSONAL_EMPLOYEE_INFORMT");
+        console.log("Request executed success! Records loaded: " + nodeRequest.count());
     }
 
     await m4apinode.logoutPromise();
