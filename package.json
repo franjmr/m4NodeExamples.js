@@ -1,0 +1,27 @@
+{
+  "name": "m4-node-examples",
+  "version": "1.0.0",
+  "description": "Examples using m4-node-api package",
+  "main": "dist/__src__/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franjmr/m4Node.js.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "m4NodeJsDev": "ts-node-dev --respawn --transpileOnly ./__src__/nodejs.ts"
+  },
+  "author": "franjmr",
+  "license": "ISC",
+  "dependencies": {
+    "@franjmr/m4-node-api": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/node": "^13.1.7",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4"
+  }
+}
