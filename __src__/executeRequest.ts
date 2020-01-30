@@ -16,6 +16,7 @@ async function example(){
     if( objRequest ){
         const nodeRequest = objRequest.getNode("PLCO_PERSONAL_EMPLOYEE_INFORMT");
         console.log("Request executed success! Records loaded: " + nodeRequest.count());
+        console.log("Request Code Error " +request.getErrorCode());
     }
 
     await m4apinode.logoutPromise();
