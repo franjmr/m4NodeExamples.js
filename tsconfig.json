@@ -1,15 +1,19 @@
 {
     "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "strict": true,
-      "declaration": true,
-      "outDir": "dist",
-      "sourceMap": true,
-      "types": [
-        "node",
-        "jest"
-    ]
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "declaration": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "types": [
+            "node",
+            "jest"
+        ],
+        "esModuleInterop": true
     },
-    "include": ["__tests__/**/*", "__src__/**/*.ts"],
-  }
+    "include": [
+        "__tests__/**/*",
+        "__src__/**/*.ts"
+    ],
+}
