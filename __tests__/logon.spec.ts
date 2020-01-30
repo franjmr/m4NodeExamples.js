@@ -13,9 +13,6 @@ describe("JSONFileUtils Sync suite", () => {
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
     });
 
-    /**
-     * @testEnvironment jsdom
-     */
     test("should generate an api url to connect", async () => {
         expect(m4ApiNodejs.apiUrl).toBeTruthy();
     });
