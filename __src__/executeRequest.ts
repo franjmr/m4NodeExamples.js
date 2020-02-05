@@ -7,8 +7,10 @@ async function example(){
 
     const m4apinode = await M4ApiNodejs(server,user,pass);
 
-    await m4apinode.logonPromise();
+    const logonToken = await m4apinode.logonPromise();
 
+    console.log("Logon token is "+logonToken);
+    
     await m4apinode.loadMetadataPromise(['PLCO_LOAD_ALL_PERSONAL_INFO']);
     
     const request = await m4apinode.executeMethodPromise("PLCO_LOAD_ALL_PERSONAL_INFO", "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
