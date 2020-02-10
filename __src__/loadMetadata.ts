@@ -1,7 +1,7 @@
 import { M4ApiNodejs } from "@franjmr/m4-node-api";
 
 async function example(){
-    const server = "http://franciscocaw10.meta4.com:5020";
+    const server = "http://arya.meta4.com:5020";
     const user = "ORLIEMOBILE";
     const pass = "RUN";
 
