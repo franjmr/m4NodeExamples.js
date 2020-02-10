@@ -1,6 +1,6 @@
 {
   "name": "m4-node-examples",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Examples using m4-node-api package",
   "main": "dist/__src__/index.js",
   "repository": {
@@ -17,7 +17,7 @@
   "author": "franjmr",
   "license": "ISC",
   "dependencies": {
-    "@franjmr/m4-node-api": "1.0.13"
+    "@franjmr/m4-node-api": "1.0.20"
   },
   "devDependencies": {
     "@types/jest": "^24.9.0",
