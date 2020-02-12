@@ -1,5 +1,7 @@
 import { M4ApiNodejs } from "@franjmr/m4-node-api";
-import { M4Event } from "@franjmr/m4-node-api/dist/m4Interfaces/M4Event";
+import { M4ItemChangedEvent } from "@franjmr/m4-node-api/dist/m4Interfaces/client/events/M4ItemChangedEvent";
+import { M4NodeCurrentChangedEvent } from "@franjmr/m4-node-api/dist/m4Interfaces/client/events/M4NodeCurrentChangedEvent";
+import { M4NodeRecordsChangedEvent } from "@franjmr/m4-node-api/dist/m4Interfaces/client/events/M4NodeRecordsChangedEvent";
 
 async function example(){
     const server = "http://arya.meta4.com:5020";
@@ -19,24 +21,27 @@ async function example(){
     await m4apinode.executeM4ObjectMethodPromise(m4object, "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
     
     m4nodeObservableItemchange.subscribe({
-        next(event:M4Event) { console.log('Observale Item Changed'); },
-        error(err:TypeError) { console.error('Observale Item Changed - something wrong occurred: ' + err); },
-        complete() { console.log('Observale Item Changed - done'); }
+        next(event:M4ItemChangedEvent) { console.log('Observable Item Changed - Item Id: '+event.getItemId()); },
+        error(err:TypeError) { console.error('Observable Item Changed - something wrong occurred: ' + err); },
+        complete() { console.log('Observable Item Changed - done'); }
     });
 
     m4nodeObservableCurrentChanged.subscribe({
-        next(event:M4Event) { console.log('Observale Current Change'); },
-        error(err:TypeError) { console.error('Observale Current Changed - something wrong occurred: ' + err); },
-        complete() { console.log('Observale Current Changed Item Changed - done'); }
+        next(event:M4NodeCurrentChangedEvent) { console.log('Observable Current Change - Node Current: '+event.getNode().getCurrent()); },
+        error(err:TypeError) { console.error('Observable Current Changed - something wrong occurred: ' + err); },
+        complete() { console.log('Observable Current Changed Item Changed - done'); }
     });
 
     m4nodeObservableRecordsChanged.subscribe({
-        next(event:M4Event) { console.log('Observale Records Change'); },
-        error(err:TypeError) { console.error('Observale Records Changed - something wrong occurred: ' + err); },
-        complete() { console.log('Observale Records Changed - done'); }
+        next(event:M4NodeRecordsChangedEvent) { console.log('Observable Records Change - Node Count: ' +event.getNode().count()); },
+        error(err:TypeError) { console.error('Observable Records Changed - something wrong occurred: ' + err); },
+        complete() { console.log('Observable Records Changed - done'); }
     });
 
     // Check Observables
+
+    console.log('Previous Observable Node Records - Node Count: '+m4node.count());
+    console.log('Previous Observable Node Current - Node Current: '+m4node.getCurrent());
     m4node.addRecord();
     m4node.setValue("PSCO_EMPLOYEE_NAME","Yoshimitsu");
 
