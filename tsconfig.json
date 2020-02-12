@@ -8,7 +8,7 @@
         "sourceMap": true,
         "types": [
             "node",
-            "jest"
+            "jasmine"
         ],
         "esModuleInterop": true
     },
