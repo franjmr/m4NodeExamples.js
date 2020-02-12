@@ -1,26 +1,17 @@
-# M4JsApiNode Examples
-M4JsapiNode.js Examples
+# M4Node.js Examples
+M4Node.js examples
 
-## Mocking File System Node module
-This project contains some examples of unit testing with [Jest](https://jestjs.io/) framework and Typescript that ensure the correct functionality of a class that uses the [fs node module](https://www.npmjs.com/package/file-system).
-
-Mock mock specific module functions:
-- readFile
-- readFileSync
-- writeFileSync
-
-The purpose of these examples is to show:
-- How we can falsify the writing and reading files.
-- Avoid contamination of the test context.
-- Avoid having physical files for tests.
-- Be able to alter the content of the files programmatically.
-- Spy on functionality.
-- Mock functions.
+## Purpouse
+- Use the M4Node.js library in Node.js developments
+- Back-end Developer.
+- TypeScript: Strict typing, Structural typing, Type annotations and Type inference.
+- Observable Rxjs: Observer pattern (reactive programming) to write asynchronous code.
+- Promises: To write asynchronous code a promise represents a value that may be available now, in the future, or never.
 
 ### Install
-npm install
+- npm install
 
 ### Execute examples
-- npm run logon
-- npm run loadMetadatada
-- npm run executeRequest
+- npm run devLogon
+- npm run devLoadMetadata
+- npm run devExecuteRequest
