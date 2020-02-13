@@ -40,7 +40,7 @@ describe("Logon Mock suite", () => {
         spyOn(m4ApiNodejs,"logonPromise").and.returnValues(Promise.resolve(mockM4LogonResult));
     });
 
-    beforeAll(async() => {
+    afterAll(async() => {
         if(m4ApiNodejs){
             await m4ApiNodejs.logoutPromise();
         }

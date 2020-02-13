@@ -12,7 +12,7 @@ describe("Logon suite", () => {
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
     });
 
-    beforeAll(async() => {
+    afterAll(async() => {
         if(m4ApiNodejs){
             await m4ApiNodejs.logoutPromise();
         }
