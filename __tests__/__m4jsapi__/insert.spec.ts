@@ -11,7 +11,6 @@ describe("Add parent record without load suite", () => {
     let m4LogonResult : M4LogonResult;
     let m4ObjectDeltas: M4Object;
     let m4nodeDeltasRequest: M4Node;
-    let m4RequestDeltas: M4Request;
 
     beforeAll(async ()=>{
         m4ApiNodejs = await M4ApiNodejs("http://arya.meta4.com:5020","ORLI_GLO","123");
@@ -32,7 +31,7 @@ describe("Add parent record without load suite", () => {
     })
 
     it("should syncronize in server", async () => {
-        m4RequestDeltas = await m4ApiNodejs.executeM4ObjectMethodPromise(m4ObjectDeltas,"M4QA_JSAPI_DELTAS2_P","SYNCHRONIZE", []);
+        const m4RequestDeltas = await m4ApiNodejs.executeM4ObjectMethodPromise(m4ObjectDeltas,"M4QA_JSAPI_DELTAS2_P","SYNCHRONIZE", []);
         m4nodeDeltasRequest = m4RequestDeltas.getObject().getNode("M4QA_JSAPI_DELTAS2_P");
         expect(m4nodeDeltasRequest).toBeTruthy();
     });
