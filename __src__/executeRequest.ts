@@ -9,7 +9,7 @@ async function example(){
 
     const logonToken = await m4apinode.logonPromise();
 
-    console.log("Logon token is "+logonToken);
+    console.log("Logon token is "+logonToken.getToken());
     
     await m4apinode.loadMetadataPromise(['PLCO_LOAD_ALL_PERSONAL_INFO']);
     
