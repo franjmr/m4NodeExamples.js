@@ -1,27 +1,30 @@
 {
     "version": "0.2.0",
     "configurations": [
-      {
-        "type": "node",
-        "request": "launch",
-        "name": "Debug current file",
-        "program": "${file}",
-        "preLaunchTask": "tsc: build - tsconfig.json",
-        "outFiles": ["${workspaceFolder}/dist/**/*.js"]
-      },
-      {
-        "type": "node",
-        "request": "launch",
-        "name": "Debug current test file",
-        "program": "${workspaceFolder}/node_modules/jasmine/bin/jasmine",
-        "args": [
-          "${workspaceFolder}/dist/__tests__/${fileBasenameNoExtension}.js"
-        ],
-        "preLaunchTask": "tsc: build - tsconfig.json",     
-        "outFiles": ["${workspaceFolder}/dist/**/*.js"],
-        "console": "integratedTerminal",
-        "internalConsoleOptions": "neverOpen"
-  }
-      }
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug current file",
+            "program": "${file}",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug current test file",
+            "program": "${workspaceFolder}/node_modules/jasmine/bin/jasmine",
+            "args": [
+                "${workspaceFolder}/dist/${relativeFileDirname}/${fileBasenameNoExtension}.js"
+            ],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
     ]
-  }
+}
