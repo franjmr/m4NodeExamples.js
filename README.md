@@ -16,3 +16,6 @@ M4Node.js examples
 - npm run devLogon
 - npm run devLoadMetadata
 - npm run devExecuteRequest
+
+### Execute tests
+- npm run test
