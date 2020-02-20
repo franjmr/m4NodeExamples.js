@@ -37,17 +37,17 @@ describe("Logon Mock suite", () => {
         const user = "LUISARAGONES";
         const pass = "YGANAR_YGANAR_YGANAR_YGANAR";
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
-        spyOn(m4ApiNodejs,"logonPromise").and.returnValues(Promise.resolve(mockM4LogonResult));
+        spyOn(m4ApiNodejs,"logon").and.returnValues(Promise.resolve(mockM4LogonResult));
     });
 
     afterAll(async() => {
         if(m4ApiNodejs){
-            await m4ApiNodejs.logoutPromise();
+            await m4ApiNodejs.logout();
         }
     })
 
     it("should do logon", async () => {
-        const m4LogonResult = await m4ApiNodejs.logonPromise()
+        const m4LogonResult = await m4ApiNodejs.logon()
         expect(m4LogonResult.getToken()).toEqual(logonToken);
     });
 });

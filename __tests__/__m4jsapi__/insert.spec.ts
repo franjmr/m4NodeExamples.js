@@ -14,8 +14,8 @@ describe("Add parent record without load suite", () => {
 
     beforeAll(async ()=>{
         m4ApiNodejs = await M4ApiNodejs("http://arya.meta4.com:5020","ORLI_GLO","123");
-        m4LogonResult = await m4ApiNodejs.logonPromise();
-        m4ObjectDeltas = await m4ApiNodejs.createM4ObjectAsync("M4QA_JSAPI_DELTAS2");
+        m4LogonResult = await m4ApiNodejs.logon();
+        m4ObjectDeltas = await m4ApiNodejs.createM4Object("M4QA_JSAPI_DELTAS2");
         const m4nodeDeltas = m4ObjectDeltas.getNode("M4QA_JSAPI_DELTAS2_P");
         m4nodeDeltas.addRecord();
         m4nodeDeltas.setValue("PK", 654546879);
@@ -26,12 +26,12 @@ describe("Add parent record without load suite", () => {
 
     afterAll(async() => {
         if(m4LogonResult.getToken()){
-            await m4ApiNodejs.logoutPromise();
+            await m4ApiNodejs.logout();
         }
     })
 
     it("should syncronize in server", async () => {
-        const m4RequestDeltas = await m4ApiNodejs.executeM4ObjectMethodPromise(m4ObjectDeltas,"M4QA_JSAPI_DELTAS2_P","SYNCHRONIZE", []);
+        const m4RequestDeltas = await m4ApiNodejs.executeM4ObjectMethod(m4ObjectDeltas,"M4QA_JSAPI_DELTAS2_P","SYNCHRONIZE", []);
         m4nodeDeltasRequest = m4RequestDeltas.getObject().getNode("M4QA_JSAPI_DELTAS2_P");
         expect(m4nodeDeltasRequest).toBeTruthy();
     });

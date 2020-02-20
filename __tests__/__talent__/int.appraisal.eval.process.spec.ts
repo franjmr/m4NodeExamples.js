@@ -16,15 +16,16 @@ describe("Appraisal Processes - Load suite", () => {
         const user = "LGUINDOS";
         const pass = "Sqafunc*12";
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
+        m4ApiNodejs.enableConsoleMessages();
 
-        await m4ApiNodejs.logonPromise();
+        await m4ApiNodejs.logon();
 
-        const m4ObjFlAppProcess = await m4ApiNodejs.createM4ObjectAsync("PLCO_FL_APP_PROCESSES");
+        const m4ObjFlAppProcess = await m4ApiNodejs.createM4Object("PLCO_FL_APP_PROCESSES");
         m4ReqFlAppProcess = m4ApiNodejs.createM4Request(m4ObjFlAppProcess,"PLCO_FL_APP_PROCESSES","LOAD_CHANNELS", []);
 
-        m4ObjectEvalProc = await m4ApiNodejs.createM4ObjectAsync("PLCO_FL_MT_H_EVAL_PROC");
-        m4ObjectEvalProPublish = await m4ApiNodejs.createM4ObjectAsync("PLCO_FL_EVAL_PRO_PUBLISH");
-        m4ObjectEvalProFeedback = await m4ApiNodejs.createM4ObjectAsync("PLCO_FL_EVAL_PRO_FEEDBACK");
+        m4ObjectEvalProc = await m4ApiNodejs.createM4Object("PLCO_FL_MT_H_EVAL_PROC");
+        m4ObjectEvalProPublish = await m4ApiNodejs.createM4Object("PLCO_FL_EVAL_PRO_PUBLISH");
+        m4ObjectEvalProFeedback = await m4ApiNodejs.createM4Object("PLCO_FL_EVAL_PRO_FEEDBACK");
 
         m4ReqFlAppProcess.addReference("PLCO_FL_MT_H_EVAL_PROC", m4ObjectEvalProc);
         m4ReqFlAppProcess.addReference("PLCO_FL_EVAL_PRO_PUBLISH", m4ObjectEvalProPublish);
@@ -33,12 +34,12 @@ describe("Appraisal Processes - Load suite", () => {
 
     afterAll(async() => {
         if(m4ApiNodejs){
-            await m4ApiNodejs.logoutPromise();
+            await m4ApiNodejs.logout();
         }
     });
 
     it("should load channels", async(done)=>{
-        m4ApiNodejs.executeM4RequestPromise(m4ReqFlAppProcess).then(()=>{
+        m4ApiNodejs.executeM4Request(m4ReqFlAppProcess).then(()=>{
             done();
         }).catch(()=>{
             done.fail();

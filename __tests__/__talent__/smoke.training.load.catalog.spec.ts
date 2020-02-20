@@ -13,18 +13,18 @@ describe("Training Load Catalog Smoke suite", () => {
         const user = "USUTRANING_MAN_ESP";
         const pass = "RUN";
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
-        await m4ApiNodejs.logonPromise();
-        m4ObjectTraCatalog = await m4ApiNodejs.createM4ObjectAsync("PMCO_MANAGE_TRAINING_CATALOG");
+        await m4ApiNodejs.logon();
+        m4ObjectTraCatalog = await m4ApiNodejs.createM4Object("PMCO_MANAGE_TRAINING_CATALOG");
     });
 
     afterAll(async() => {
         if(m4ApiNodejs){
-            await m4ApiNodejs.logoutPromise();
+            await m4ApiNodejs.logout();
         }
     });
 
     it("should return error code 0 given empty args", async (done) => {
-        m4ApiNodejs.executeM4ObjectMethodPromise(m4ObjectTraCatalog,"PLCO_MANAGE_TRAINING_CATALOG","PLCO_MAIN_PROCESS_MSS", []).then((m4Request : M4Request) =>{
+        m4ApiNodejs.executeM4ObjectMethod(m4ObjectTraCatalog,"PLCO_MANAGE_TRAINING_CATALOG","PLCO_MAIN_PROCESS_MSS", []).then((m4Request : M4Request) =>{
             expect(m4Request.getErrorCode()).toEqual(0);
             done();
         }).catch( (error: TypeError )=>{

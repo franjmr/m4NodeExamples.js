@@ -14,7 +14,7 @@ describe("Logon suite", () => {
 
     afterAll(async() => {
         if(m4ApiNodejs){
-            await m4ApiNodejs.logoutPromise();
+            await m4ApiNodejs.logout();
         }
     })
 
@@ -27,7 +27,7 @@ describe("Logon suite", () => {
     });
 
     it("should do logon", async () => {
-        const token = await m4ApiNodejs.logonPromise()
+        const token = await m4ApiNodejs.logon()
         expect(token).toBeTruthy();
     });
 });
