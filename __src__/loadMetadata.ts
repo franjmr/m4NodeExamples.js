@@ -7,9 +7,9 @@ async function example(){
 
     const m4apinode = await M4ApiNodejs(server,user,pass);
     
-    await m4apinode.logonPromise();
-    await m4apinode.loadMetadataPromise(['PLCO_LOAD_ALL_PERSONAL_INFO']);
-    await m4apinode.logoutPromise();
+    await m4apinode.logon();
+    await m4apinode.loadMetadata(['PLCO_LOAD_ALL_PERSONAL_INFO']);
+    await m4apinode.logout();
     console.log("All done")
 }
 

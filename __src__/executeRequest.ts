@@ -7,13 +7,13 @@ async function example(){
 
     const m4apinode = await M4ApiNodejs(server,user,pass);
 
-    const logonToken = await m4apinode.logonPromise();
+    const logonToken = await m4apinode.logon();
 
     console.log("Logon token is "+logonToken.getToken());
     
-    await m4apinode.loadMetadataPromise(['PLCO_LOAD_ALL_PERSONAL_INFO']);
+    await m4apinode.loadMetadata(['PLCO_LOAD_ALL_PERSONAL_INFO']);
     
-    const request = await m4apinode.executeMethodPromise("PLCO_LOAD_ALL_PERSONAL_INFO", "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
+    const request = await m4apinode.executeMethod("PLCO_LOAD_ALL_PERSONAL_INFO", "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
     const objRequest = request.getObject();
     if( objRequest ){
         const nodeRequest = objRequest.getNode("PLCO_PERSONAL_EMPLOYEE_INFORMT");
@@ -21,7 +21,7 @@ async function example(){
         console.log("Request Code Error " +request.getErrorCode());
     }
 
-    await m4apinode.logoutPromise();
+    await m4apinode.logout();
     console.log("All done")
 }
 

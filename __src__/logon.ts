@@ -7,7 +7,7 @@ async function example(){
 
     const m4apinode = await M4ApiNodejs(server,user,pass);
 
-    const logonResult = await m4apinode.logonPromise();
+    const logonResult = await m4apinode.logon();
     const logonStatus = logonResult.getLogonStatus();
     const logonStatusString = logonResult.getLogonStatusAsString();
     const logonToken = logonResult.getToken();
@@ -16,7 +16,7 @@ async function example(){
     console.log("logonStatusString: "+logonStatusString);
     console.log("logonToken: "+logonToken);
 
-    await m4apinode.logoutPromise();
+    await m4apinode.logout();
     
     console.log("All done")
 }

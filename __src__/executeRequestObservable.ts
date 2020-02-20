@@ -10,15 +10,15 @@ async function example(){
 
     const m4apinode = await M4ApiNodejs(server,user,pass);
 
-    await m4apinode.logonPromise();
+    await m4apinode.logon();
 
-    const m4object = await m4apinode.createM4ObjectAsync("PLCO_LOAD_ALL_PERSONAL_INFO");
+    const m4object = await m4apinode.createM4Object("PLCO_LOAD_ALL_PERSONAL_INFO");
     const m4node = m4object.getNode("PSCO_EMPLOYEE_RECORD_HEADER");
     const m4nodeObservableItemchange = m4apinode.createObservableByNodeItemChanged(m4node);
     const m4nodeObservableCurrentChanged = m4apinode.createObservableByNodeCurrentChanged(m4node);
     const m4nodeObservableRecordsChanged = m4apinode.createObservableByNodeRecordsChanged(m4node);
 
-    await m4apinode.executeM4ObjectMethodPromise(m4object, "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
+    await m4apinode.executeM4ObjectMethod(m4object, "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
     
     m4nodeObservableItemchange.subscribe({
         next(event:M4ItemChangedEvent) { console.log('Observable Item Changed - Item Id: '+event.getItemId()); },
@@ -45,7 +45,7 @@ async function example(){
     m4node.addRecord();
     m4node.setValue("PSCO_EMPLOYEE_NAME","Yoshimitsu");
 
-    await m4apinode.logoutPromise();
+    await m4apinode.logout();
     console.log("All done")
 }
 
