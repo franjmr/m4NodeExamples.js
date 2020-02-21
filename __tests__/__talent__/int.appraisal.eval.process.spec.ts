@@ -10,9 +10,11 @@ describe("Appraisal Processes - Load suite", () => {
     let m4ObjectEvalProc: M4Object;
     let m4ObjectEvalProPublish: M4Object;
     let m4ObjectEvalProFeedback: M4Object;
+    
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
 
-    beforeAll(async ()=>{
-        const server = "http://neferiow10.meta4.com";
+    beforeAll(async (done)=>{
+        const server = "http://drogo.meta4.com:9020";
         const user = "LGUINDOS";
         const pass = "Sqafunc*12";
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
@@ -30,6 +32,7 @@ describe("Appraisal Processes - Load suite", () => {
         m4ReqFlAppProcess.addReference("PLCO_FL_MT_H_EVAL_PROC", m4ObjectEvalProc);
         m4ReqFlAppProcess.addReference("PLCO_FL_EVAL_PRO_PUBLISH", m4ObjectEvalProPublish);
         m4ReqFlAppProcess.addReference("PLCO_FL_EVAL_PRO_FEEDBACK", m4ObjectEvalProFeedback);
+        done();
     });
 
     afterAll(async() => {
