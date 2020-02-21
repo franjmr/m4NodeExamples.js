@@ -1,4 +1,4 @@
-import { M4ApiNodejs } from "@franjmr/m4-node-api";
+import { M4ApiNodejs } from "@automation/m4nodejs";
 
 async function example(){
     const server = "http://arya.meta4.com:5020";

@@ -1,5 +1,5 @@
-import { M4ApiNodejs } from "@franjmr/m4-node-api";
-import { M4ApiNode } from "@franjmr/m4-node-api/dist/m4apiNode";
+import { M4ApiNodejs } from "@automation/m4nodejs";
+import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 
 describe("Logon suite", () => {
 

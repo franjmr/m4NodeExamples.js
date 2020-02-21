@@ -1,7 +1,7 @@
-import { M4ApiNodejs } from "@franjmr/m4-node-api";
-import { M4ItemChangedEvent } from "@franjmr/m4-node-api/dist/m4Interfaces/client/events/M4ItemChangedEvent";
-import { M4NodeCurrentChangedEvent } from "@franjmr/m4-node-api/dist/m4Interfaces/client/events/M4NodeCurrentChangedEvent";
-import { M4NodeRecordsChangedEvent } from "@franjmr/m4-node-api/dist/m4Interfaces/client/events/M4NodeRecordsChangedEvent";
+import { M4ApiNodejs } from "@automation/m4nodejs";
+import { M4ItemChangedEvent } from "@automation/m4nodejs/dist/m4Interfaces/client/events/M4ItemChangedEvent";
+import { M4NodeCurrentChangedEvent } from "@automation/m4nodejs/dist/m4Interfaces/client/events/M4NodeCurrentChangedEvent";
+import { M4NodeRecordsChangedEvent } from "@automation/m4nodejs/dist/m4Interfaces/client/events/M4NodeRecordsChangedEvent";
 
 async function example(){
     const server = "http://arya.meta4.com:5020";
