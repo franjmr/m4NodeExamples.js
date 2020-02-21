@@ -5,7 +5,7 @@
   "main": "dist/__src__/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/franjmr/m4Node.js.git"
+    "url": "git@github.com:franjmr/m4NodeExamples.js.git"
   },
   "scripts": {
     "build": "tsc",
@@ -17,7 +17,7 @@
   "author": "franjmr",
   "license": "ISC",
   "dependencies": {
-    "@franjmr/m4-node-api": "1.1.5"
+    "@automation/m4nodejs": "1.1.5"
   },
   "devDependencies": {
     "@types/jasmine": "^3.5.3",
