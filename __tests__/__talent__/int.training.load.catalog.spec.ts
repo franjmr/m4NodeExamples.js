@@ -4,7 +4,7 @@ import { M4Object } from "@automation/m4nodejs/dist/m4Interfaces/M4Object";
 import { M4Node } from "@automation/m4nodejs/dist/m4Interfaces/M4Node";
 import { M4Request } from "@automation/m4nodejs/dist/m4Interfaces/M4Request";
 
-describe("Training Load Catalog suite", () => {
+describe("Talent - Training Load Catalog suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
     let m4RequestTraLoadCatalog: M4Request;

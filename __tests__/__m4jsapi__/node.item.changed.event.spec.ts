@@ -3,7 +3,7 @@ import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import { M4ItemChangedEvent } from "@automation/m4nodejs/dist/m4Interfaces/client/events/M4ItemChangedEvent";
 import { M4LogonResult } from "@automation/m4nodejs/dist/m4Interfaces/M4LogonResult";
 
-describe("Node Item Changed Event suite", () => {
+describe("M4JSAPI - Node Item Changed Event suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
     let m4LogonResult : M4LogonResult;

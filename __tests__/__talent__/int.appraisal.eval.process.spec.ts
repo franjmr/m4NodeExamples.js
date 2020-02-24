@@ -3,7 +3,7 @@ import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import { M4Request } from "@automation/m4nodejs/dist/m4Interfaces/M4Request";
 import { M4Object } from "@automation/m4nodejs/dist/m4Interfaces/M4Object";
 
-describe("Appraisal Processes - Load suite", () => {
+describe("Talent - Appraisal Processes - Load suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
     let m4ReqFlAppProcess: M4Request;

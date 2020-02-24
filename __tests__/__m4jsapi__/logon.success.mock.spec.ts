@@ -2,7 +2,7 @@ import { M4ApiNodejs } from "@automation/m4nodejs";
 import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import { M4LogonResult } from "@automation/m4nodejs/dist/m4Interfaces/M4LogonResult";
 
-describe("Logon Mock suite", () => {
+describe("M4JSAPI - Logon Mock suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
     const logonToken: string = "TengoUnAmigoJaponesQueEsSexadorDePollos";

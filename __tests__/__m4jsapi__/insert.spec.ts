@@ -5,7 +5,7 @@ import { M4Request } from "@automation/m4nodejs/dist/m4Interfaces/M4Request";
 import { M4Object } from "@automation/m4nodejs/dist/m4Interfaces/M4Object";
 import { M4Node } from "@automation/m4nodejs/dist/m4Interfaces/M4Node";
 
-describe("Add parent record without load suite", () => {
+describe("M4JSAPI - Add parent record without load suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
     let m4LogonResult : M4LogonResult;

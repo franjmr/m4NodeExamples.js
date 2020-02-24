@@ -1,7 +1,7 @@
 import { M4ApiNodejs } from "@automation/m4nodejs";
 import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 
-describe("Logon suite", () => {
+describe("M4JSAPI - Logon suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
 

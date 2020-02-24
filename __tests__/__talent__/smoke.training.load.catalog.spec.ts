@@ -3,7 +3,7 @@ import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import { M4Object } from "@automation/m4nodejs/dist/m4Interfaces/M4Object";
 import { M4Request } from "@automation/m4nodejs/dist/m4Interfaces/M4Request";
 
-describe("Training Load Catalog Smoke suite", () => {
+describe("Talent - Training Load Catalog Smoke suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
     let m4ObjectTraCatalog: M4Object;
