@@ -12,7 +12,7 @@ describe("Talent - Training Load Catalog suite", () => {
     let m4NodeTraCatalog: M4Node;
 
     beforeAll(async ()=>{
-        const server = "http://neferiow10.meta4.com";
+        const server = "http://drogo.meta4.com:9020";
         const user = "USUTRANING_MAN_ESP";
         const pass = "RUN";
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
