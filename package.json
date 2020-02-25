@@ -19,7 +19,7 @@
   "author": "franjmr",
   "license": "ISC",
   "dependencies": {
-    "@automation/m4nodejs": "1.1.5"
+    "@automation/m4nodejs": "1.1.7"
   },
   "devDependencies": {
     "@types/jasmine": "^3.5.3",
@@ -30,7 +30,6 @@
     "jsdom": "16.1.0",
     "jsdom-global": "3.0.2",
     "nyc": "^15.0.0",
-    "ts-jest": "^24.3.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   }
