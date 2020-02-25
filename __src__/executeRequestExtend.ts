@@ -11,7 +11,7 @@ async function example(){
 
     console.log("Logon token is "+logonToken.getToken());
         
-    const request = await m4apinode.executeMethodExtend("PLCO_LOAD_ALL_PERSONAL_INFO", "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
+    const request = await m4apinode.executeMethod("PLCO_LOAD_ALL_PERSONAL_INFO", "PLCO_PERSONAL_EMPLOYEE_INFORMT", "PLCO_LOAD_ALL_PERSONAL_INFO", ["","",""]);
     const objRequest = request.getObject();
     if( objRequest ){
         const nodeRequest = objRequest.getNode("PLCO_PERSONAL_EMPLOYEE_INFORMT");
