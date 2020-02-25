@@ -2,8 +2,7 @@ import { M4ApiNodejs } from "@automation/m4nodejs";
 import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import { M4Node } from "@automation/m4nodejs/dist/m4Interfaces/M4Node";
 import { M4Request } from "@automation/m4nodejs/dist/m4Interfaces/M4Request";
-var requireFromUrl = require('require-from-url/sync');
-var moootols = require('mootools');
+const moootols = require('mootools');
 
 describe("Talent - Appraisal Processes - Get Config Process suite", () => {
 
