@@ -12,6 +12,7 @@
     "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
     "test:m4jsapi": "ts-node node_modules/jasmine/bin/jasmine --filter=M4JSAPI --config=jasmine.json",
     "test:talent": "ts-node node_modules/jasmine/bin/jasmine --filter=Talent --config=jasmine.json",
+    "test:talent:mock": "ts-node node_modules/jasmine/bin/jasmine --filter=Mocking --config=jasmine.json",
     "devExecuteRequest": "ts-node-dev --respawn --transpileOnly ./__src__/executeRequest.ts",
     "devLogon": "ts-node-dev --respawn --transpileOnly ./__src__/logon.ts",
     "devLoadMetadata": "ts-node-dev --respawn --transpileOnly ./__src__/loadMetadata.ts"
@@ -20,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "@automation/m4nodejs": "1.1.8",
+    "mock-xmlhttprequest": "^5.1.0",
     "mootools": "^1.5.2"
   },
   "devDependencies": {
