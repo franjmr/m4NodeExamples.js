@@ -20,7 +20,7 @@ describe("Talent - Appraisal Processes - Get Config Process suite", () => {
         const pass = "Sqafunc*12";
         m4ApiNodejs = await M4ApiNodejs(server,user,pass);
         await m4ApiNodejs.logon();
-        await m4ApiNodejs.__importJsFileFromUrl__(server+"/libreria/appraisal/processexecution/evaluation.js");
+        await m4ApiNodejs.__importJavaScriptFileFromUrl__(server+"/libreria/appraisal/processexecution/evaluation.js");
         
         function mockGetValues(node: M4Node, itemsId: string[]){
             let itemValues : any = [];

@@ -1,9 +1,7 @@
 import { M4ApiNodejs } from "@automation/m4nodejs";
 import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import { M4Node } from "@automation/m4nodejs/dist/m4Interfaces/M4Node";
-import { MockXhr } from "mock-xmlhttprequest/types";
 import * as fs from "fs";
-import * as MockXMLHttpRequest from "mock-xmlhttprequest";
 import { M4Object } from "@automation/m4nodejs/dist/m4Interfaces/M4Object";
 const moootols = require('mootools');
 
@@ -19,20 +17,9 @@ describe("Mocking - Appraisal Processes - Get Config Process suite", () => {
         globalAny = global;
 
         m4ApiNodejs = await M4ApiNodejs("http://arya.meta4.com:5020","foo","foo");
-        await m4ApiNodejs.__importJsFileFromUrl__("http://arya.meta4.com:5020/libreria/appraisal/processexecution/evaluation.js");
-    
-        const m4Window = m4ApiNodejs.__getWindowObject__();
-        const MockXhr = MockXMLHttpRequest.newMockXhr();
-        
-        const data = fs.readFileSync("./__mocks__/metadata/PLCO_FL_MN_EVALUATE_SSE.xml", 'utf8');
 
-        MockXhr.onSend = (xhr : MockXhr) => {
-            const responseHeaders = { 'Content-Type': 'text/xml' };
-            xhr.respond(200, responseHeaders, data);
-        };
+        await m4ApiNodejs.__importJavaScriptFileFromUrl__("http://arya.meta4.com:5020/libreria/appraisal/processexecution/evaluation.js");
     
-        m4Window.XMLHttpRequest = MockXhr;
-        
         function mockGetValues(node: M4Node, itemsId: string[]){
             let itemValues : any = [];
             itemsId.forEach(itemId =>{
@@ -52,8 +39,11 @@ describe("Mocking - Appraisal Processes - Get Config Process suite", () => {
         spyOn(globalAny.meta4.data.utils,"getValues").and.callFake(mockGetValues);
         spyOn(globalAny.meta4.data.utils,"getValue").and.callFake(mockGetValue);
         
-        done();
+        const m4Metadata = fs.readFileSync("./__mocks__/metadata/PLCO_FL_MN_EVALUATE_SSE.xml", 'utf8');
+        m4ApiNodejs.__mock__initialize__();
+        m4ApiNodejs.__mock__setM4ObjectMetadata__("PLCO_FL_MN_EVALUATE_SSE", m4Metadata);
 
+        done();
     });
 
     it("should initialize evaluation core", async(done)=>{
@@ -66,9 +56,9 @@ describe("Mocking - Appraisal Processes - Get Config Process suite", () => {
         m4NodeMnEvaluator.addRecord();
 
         m4NodeDesProc.setValue("PLCO_ORDER_COMMENTS",1);
-        m4NodeDesProc.setValue("PLCO_ORDER_KN",4);
-        m4NodeDesProc.setValue("PLCO_ORDER_CUAN_OBJ",3);
         m4NodeDesProc.setValue("PLCO_ORDER_CL_OBJ",2);
+        m4NodeDesProc.setValue("PLCO_ORDER_CUAN_OBJ",3);
+        m4NodeDesProc.setValue("PLCO_ORDER_KN",4);
 
         const mockM4Request = m4ApiNodejs.createM4Request(mockM4Object, "PLCO_FL_MN_EVALUATE","ZOOM_EVAL_PLAN", ["","",new Date()]);
 
@@ -87,5 +77,4 @@ describe("Mocking - Appraisal Processes - Get Config Process suite", () => {
 
         done();
     });
-
 });
