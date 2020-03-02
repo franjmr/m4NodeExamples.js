@@ -11,7 +11,9 @@ describe("M4JSAPI - Add parent record without load suite", () => {
     let m4ObjectDeltas: M4Object;
     let m4nodeDeltasRequest: M4Node;
 
-    beforeAll(async ()=>{
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
+
+    beforeAll(async (done)=>{
         m4ApiNodejs = await M4ApiNodejs("http://arya.meta4.com:5020","ORLI_GLO","123");
         m4LogonResult = await m4ApiNodejs.logon();
         m4ObjectDeltas = await m4ApiNodejs.createM4Object("M4QA_JSAPI_DELTAS2");
@@ -21,6 +23,7 @@ describe("M4JSAPI - Add parent record without load suite", () => {
         m4nodeDeltas.setValue("FIELD_STRING", "Cadena");
         m4nodeDeltas.setValue("FIELD_NUMBER", 8);
         m4nodeDeltas.setValue("FIELD_DATE", new Date("2013-10-20 0:00:00"));
+        done();
     });
 
     afterAll(async() => {
