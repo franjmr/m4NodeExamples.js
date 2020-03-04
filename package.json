@@ -15,12 +15,13 @@
     "test:talent:mock": "ts-node node_modules/jasmine/bin/jasmine --filter=Mocking --config=jasmine.json",
     "devExecuteRequest": "ts-node-dev --respawn --transpileOnly ./__src__/executeRequest.ts",
     "devLogon": "ts-node-dev --respawn --transpileOnly ./__src__/logon.ts",
-    "devLoadMetadata": "ts-node-dev --respawn --transpileOnly ./__src__/loadMetadata.ts"
+    "devLoadMetadata": "ts-node-dev --respawn --transpileOnly ./__src__/loadMetadata.ts",
+    "devCreateXmlMetadata": "ts-node-dev --respawn --transpileOnly ./__src__/createXmlMetadataFromServer.ts"
   },
   "author": "franjmr",
   "license": "ISC",
   "dependencies": {
-    "@automation/m4nodejs": "1.1.9",
+    "@automation/m4nodejs": "1.1.11",
     "mootools": "^1.5.2"
   },
   "devDependencies": {
