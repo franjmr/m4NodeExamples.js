@@ -1,0 +1,1464 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<m4xml version="1.0">
+<context subsessionid="XMLMETADATA" subsessionmode="current" serveruserid="USUTRANING_MAN_ESP">
+<m4obj id="PSCO_GTA_EDIT_CLOCK" n="ESS Clocking Modification Request" v="2020-02-06 20:32:09">
+	<node id="SRCO_X_DAYS" pn="" pct="0" n="SRCO_X_DAYS">
+		<item id="SCO_ID_DAY" pi="" n="Day ID" sp="3" tp="3" mtp="6" pr="1" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="SCO_NM_DAY" pi="" n="Day Name" sp="3" tp="3" mtp="2" pr="15" sc="0" or="2" dv="" va="0" vi="1" it="8" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_CK_FIRST_DAY" pi="" n="First Day of the Week" sp="3" tp="3" mtp="2" pr="1" sc="0" or="4" dv="0" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_SHORT_NM_DAY" pi="" n="Short Day Name" sp="3" tp="3" mtp="2" pr="3" sc="0" or="3" dv="" va="0" vi="1" it="8" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PSCO_PARAM_SSE" pn="" pct="0" n="PSCO_PARAM_SSE">
+		<item id="VALOR" pi="" n="Parameter Value" sp="3" tp="3" mtp="2" pr="254" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PARAMETRO" pi="" n="Parameter" sp="3" tp="3" mtp="2" pr="30" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="0" pk="1" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_GET_PARAM" pi="" n="Get Parameter" sp="1" tp="1" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="SCO_HOUR_TOOLS" pn="" pct="0" n="SCO_HOUR_TOOLS">
+		<item id="SCO_USE_SECONDS" pi="" n="Use Seconds" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TIMESPAN_TYPE" pi="" n="Timespan Type" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DATE_NEW_HOUR" pi="" n="Date - Time = Date - New Time" sp="1" tp="1" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="5"/>
+			<arg mtp="12"/>
+		</item>
+		<item id="SCO_DATE_PLUS_HOUR" pi="" n="Date + Time = Date and Time" sp="1" tp="1" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="4"/>
+			<arg mtp="12"/>
+		</item>
+		<item id="SCO_HOUR_TO_STRING" pi="" n="Time or Date as String (time only)" sp="1" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="12"/>
+		</item>
+		<item id="SCO_FORMAT_NUMBER_2" pi="" n="Format Number to String with Prec. 0, 1 or 2" sp="1" tp="1" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="SCO_NUMBER_TO_STRING" pi="" n="From Number to String" sp="1" tp="1" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="SCO_TRUNCATE_SECONDS" pi="" n="Remove Seconds from Date and Time" sp="1" tp="1" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="5"/>
+		</item>
+		<item id="SCO_DATE_TIME_TO_DATE" pi="" n="Convert Date and Time to Date (time removed)" sp="3" tp="1" mtp="4" pr="10" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="5"/>
+		</item>
+		<item id="SCO_DATE_TIME_TO_HOUR" pi="" n="Convert Date and Time to Time (date removed)" sp="1" tp="1" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="4"/>
+		</item>
+		<item id="SCO_DIF_HOUR_TO_NUMBER" pi="" n="Hour Difference in Numeric Format" sp="1" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="12"/>
+			<arg mtp="12"/>
+		</item>
+		<item id="SCO_NUM_HOUR_TO_STRING" pi="" n="Time (internal number) as String" sp="1" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="15"/>
+		</item>
+		<item id="SCO_DATE_TIME_PLUS_NUMBER" pi="" n="Date and Time + No. Hours = Date and Time" sp="1" tp="1" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="4"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="SCO_FORMAT_HHMM_TO_NUMBER" pi="" n="Conversion from Hours:Minutes to Number" sp="3" tp="1" mtp="6" pr="5" sc="2" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="SCO_DIF_DATE_TIME_TO_NUMBER" pi="" n="Date Difference in Number Format" sp="1" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="12"/>
+			<arg mtp="12"/>
+		</item>
+		<item id="SCO_NUM_HOUR_TO_STRING_HHMM" pi="" n="Time (internal number) in hh:mm string" sp="1" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="15"/>
+		</item>
+	</node>
+	<node id="PSCO_UTILS_TEST" pn="" pct="0" n="PSCO_UTILS_TEST">
+		<item id="PSCO_PRP_ID_RSM" pi="" n="PSCO_PRP_ID_RSM" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_PRP_IS_TEST" pi="" n="Test" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_PRP_ID_PERSON" pi="" n="PSCO_PRP_ID_PERSON" sp="1" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_PRP_OR_PERIOD" pi="" n="PSCO_PRP_OR_PERIOD" sp="1" tp="2" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_PRP_ID_APP_ROLE" pi="" n="PSCO_PRP_ID_APP_ROLE" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_PRP_ID_APP_USER" pi="" n="PSCO_PRP_ID_APP_USER" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_CHANGE_USER" pi="" n="Change User Session Data" sp="1" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PSCO_RESTORE_USER" pi="" n="Restore User Session Data" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PSCO_CONFIG_MAIL" pn="" pct="0" n="PSCO_CONFIG_MAIL">
+		<item id="PRP_LEVEL" pi="" n="PRP_LEVEL" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ACTION" pi="" n="PRP_ACTION" sp="1" tp="2" mtp="2" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_COMMENT" pi="" n="Validator Comment:" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_GB_NAME" pi="" n="PRP_GB_NAME" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_SENTENCE" pi="" n="Logical Statement" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="20" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="SYS_PARAMETERS"/>
+		<item id="PRP_DESC_LINK" pi="" n="Link Description" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_PERSON" pi="" n="PRP_ID_PERSON" sp="1" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_CHANNEL" pi="" n="PRP_ID_CHANNEL" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_PARAMETERS" pi="" n="Logical Statement Parameters" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="33" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_LOGIN_NIVEL0" pi="" n="Login Level 0" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_LOGIN_NIVEL1" pi="" n="Login Level 1" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_LOGIN_NIVEL2" pi="" n="Login Level 2" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_DESC_LINK_EMP" pi="" n="Employee Self-Service" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_ESTADO_REG" pi="" n="PRP_ID_ESTADO_REG" sp="1" tp="2" mtp="2" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_DESC_LINK_RESP" pi="" n="Link Description" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EMAIL_EMPLOYEE" pi="" n="PRP_EMAIL_EMPLOYEE" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_PERSON_RESP" pi="" n="PRP_ID_PERSON_RESP" sp="1" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_PERSON_RESP_2" pi="" n="PRP_ID_PERSON_RESP_2" sp="1" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_PATH_SERVWEB_SSE" pi="" n="WebServer Path" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_PATH_TECNOLOGICO" pi="" n="CheckSecurity Path" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EMAIL_RESP_LEVEL_1" pi="" n="PRP_EMAIL_RESP_LEVEL_1" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EMAIL_RESP_LEVEL_2" pi="" n="PRP_EMAIL_RESP_LEVEL_2" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_PORTAL_REDIRECCION" pi="" n="Invisible Path" sp="1" tp="2" mtp="2" pr="1000" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SSE_N_TEXT" pi="" n="Mail Text" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="2" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SSE_ID_MAIL" pi="" n="E-mail ID" sp="3" tp="3" mtp="2" pr="2" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="0" pk="1" ai=""/>
+		<item id="SSE_SUBJECT" pi="" n="E-mail Subject" sp="3" tp="3" mtp="2" pr="254" sc="0" or="3" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SSE_ID_M4OBJECT" pi="" n="Meta4Object ID" sp="3" tp="3" mtp="2" pr="40" sc="0" or="4" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="0" pk="1" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="_COMPOSE_MAIL" pi="" n="Compose E-mail" sp="1" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="3"/>
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PMCO_SEND_MAIL" pi="" n="PMCO_SEND_MAIL" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_SEND_MAIL" pi="" n="E-mail Delivery" sp="1" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_LOAD_CONFIG" pi="" n="Load Configuration" sp="1" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="_COMPOSE_MAIL_MSS" pi="" n="_COMPOSE_MAIL_MSS" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+		</item>
+	</node>
+	<node id="PSCO_REQUEST_ESS" pn="" pct="0" n="PSCO_REQUEST_ESS">
+		<item id="EXECUTEREPORT" pi="" n="EXECUTEREPORT" sp="1" tp="4" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="35" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="7"/>
+		</item>
+		<item id="PRP_ID_PERSON" pi="" n="PRP_ID_PERSON" sp="1" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_DT_START" pi="" n="Date   " sp="1" tp="2" mtp="4" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DATE" pi="" n="Date:" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INFO" pi="" n="on" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_CHANNEL" pi="" n="PRP_ID_CHANNEL" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ORD_PERIOD" pi="" n="PRP_ORD_PERIOD" sp="1" tp="2" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_APPLY" pi="" n="Request" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_CLEAN" pi="" n="Clean" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_CLOCK" pi="" n="Clocking:" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INFO_1" pi="" n="from" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INFO_2" pi="" n="until" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_COMMENT" pi="" n="Comment:" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_ESTADO_REG" pi="" n="PRP_ID_ESTADO_REG" sp="1" tp="2" mtp="2" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DAY_TYPE" pi="" n="Day Type:" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_RWD" pi="" n="The work time has not been calculated" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_MANDATORY" pi="" n="Required Fields" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_ORGANIZATION" pi="" n="PRP_ID_ORGANIZATION" sp="1" tp="2" mtp="2" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_DATE" pi="" n="Select a date prior to today&apos;s date" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_RWD_2" pi="" n="for this day." sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_RWD_3" pi="" n="Contact HR" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_THEOR_HOURS" pi="" n="Scheduled Hours:" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_WORKING_DAY" pi="" n="Workday:" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_NODE_STRUCTURE" pi="" n="PRP_ID_NODE_STRUCTURE" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_COMMENT_EMPLOYEE" pi="" n="Comment" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_IDS_CLOCK_REASON" pi="" n="Reason IDs" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_PRP_HAS_VALIDATE" pi="" n="Has Validation" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_HIDE_COMMENT" pi="" n="Hide Comments" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_SHOW_COMMENT" pi="" n="Show Comments" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_VIEW_DETAILS" pi="" n="View Details" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_REQUEST" pi="" n="Pending requests already exist" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_CLOCKING" pi="" n="You cannot access this functionality" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_REQUEST_2" pi="" n="for this day" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_TIMESHEET" pi="" n="The timesheet is already approved" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_THEOR_TIMETABLE" pi="" n="Scheduled Timetable:" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_CLOCKING_2" pi="" n="for this date." sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ALERT_TIMESHEET_2" pi="" n="for this day." sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_STRING_CLOCKING_MODIFY" pi="" n="String with Requested Clocking Modification" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CLOCKING_REQUEST_MODIFY" pi="" n="Request Clocking Modification" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="-1.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_STRING_CLOCKING_ORIGINAL" pi="" n="String with Original Clocking Modification" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_CONFIRM" pi="" n="You did not make clocking changes." sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TITLE_REQUEST" pi="" n="Clocking Modification Request" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="-1.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_CONFIRM_2" pi="" n="Do you want to continue?" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_PENDING_REQUEST" pi="" n="Requests Pending Approval" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="-1.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_APPROVED_REQUEST" pi="" n="Approved Requests From Last Year" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="-1.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_EMPLOYEE_HAS_RWD" pi="" n="PLCO_EMPLOYEE_HAS_RWD" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IS_CLOCKING_EMPLOYEE" pi="" n="Employee Who Clocks" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_LONG_MODIFY_TRANSLATED" pi="" n="PSCO_LONG_MODIFY_TRANSLATED" sp="2" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_REQUEST_OK" pi="" n="The request was made successfully" sp="3" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_REQUEST_DELETE_OK" pi="" n="The request cancellation" sp="3" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_REQUEST_DELETE_OK_2" pi="" n="was completed successfully" sp="3" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_LOAD" pi="" n="SYS_LOAD" sp="2" tp="1" mtp="6" pr="6" sc="0" or="0" dv="" va="0" vi="0" it="255" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_PERSIST" pi="" n="SYS_PERSIST" sp="2" tp="1" mtp="6" pr="6" sc="0" or="0" dv="" va="0" vi="0" it="255" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="_CONFIG_MAIL" pi="" n="_CONFIG_MAIL" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="_CONFIG_PARAM_WF" pi="" n="_CONFIG_PARAM_WF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="_CONFIG_PARAM_MAIL" pi="" n="_CONFIG_PARAM_MAIL" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="PSCO_CREATE_REQUEST" pi="" n="PSCO_CREATE_REQUEST" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_DELETE_REQUEST" pi="" n="PSCO_DELETE_REQUEST" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="PSCO_INICIALIZE_REQUEST" pi="" n="Inicializar solicitud" sp="1" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_CANCEL_REQUEST_APPROVED" pi="" n="PSCO_CANCEL_REQUEST_APPROVED" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+	</node>
+	<node id="PLCO_LOAD_CLOCK_AUX" pn="" pct="0" n="PLCO_LOAD_CLOCK_AUX">
+		<item id="PLCO_SYS_SENTENCE" pi="" n="PLCO_SYS_SENTENCE" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="20" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_HR" pi="" n="PLCO_ID_HR" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DATE_DAY" pi="" n="PLCO_DATE_DAY" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DATE_CLOCK" pi="" n="PLCO_DATE_CLOCK" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DATE_END_DAY" pi="" n="PLCO_DATE_END_DAY" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_OR_HR_PERIOD" pi="" n="PLCO_OR_HR_PERIOD" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="STD_ID_HR" pi="" n="Employee ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_LAT" pi="" n="Latitude" sp="3" tp="3" mtp="6" pr="18" sc="15" or="9" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_LONG" pi="" n="Longitude" sp="3" tp="3" mtp="6" pr="18" sc="15" or="10" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_ORIGIN" pi="" n="Source ID" sp="3" tp="3" mtp="6" pr="2" sc="0" or="7" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_STATUS" pi="" n="Status ID" sp="3" tp="3" mtp="6" pr="2" sc="0" or="6" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_IN_OR_OUT" pi="" n="(1) In or (0) Out" sp="3" tp="3" mtp="2" pr="1" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_ERROR" pi="" n="Geolocation Error" sp="3" tp="3" mtp="2" pr="255" sc="0" or="15" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_IP_ADDRESS" pi="" n="IP Address" sp="3" tp="3" mtp="2" pr="40" sc="0" or="8" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="STD_OR_HR_PERIOD" pi="" n="HR Period No." sp="3" tp="3" mtp="6" pr="4" sc="0" or="4" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_ACCURACY" pi="" n="Geolocation Accuracy" sp="3" tp="3" mtp="6" pr="18" sc="4" or="11" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_DATETIME" pi="" n="Geolocation Date and Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="12" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_CLOCK_ACTIV_TP" pi="" n="Clocking Activity" sp="3" tp="3" mtp="2" pr="100" sc="0" or="3" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_DATE_AND_HOUR" pi="" n="Clocking/Declarat. Date &amp; Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="5" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_MACHINE" pi="" n="Time Clock ID" sp="3" tp="3" mtp="2" pr="40" sc="0" or="13" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_CLOCK_MACHINE_GRP" pi="" n="Time Clock Group ID" sp="3" tp="3" mtp="2" pr="40" sc="0" or="14" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DESTROYBLOCK" pi="" n="DESTROYBLOCK" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_LOAD_CLOCK_IN_DAY" pi="" n="Clocking Event with Status 1 All Day Long" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PLCO_GET_NAME_PERSON" pn="" pct="0" n="PLCO_GET_NAME_PERSON">
+		<item id="ID_PERSON" pi="" n="ID_PERSON" sp="1" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_GB_NAME" pi="" n="Full Name" sp="3" tp="3" mtp="2" pr="254" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="STD_ID_PERSON" pi="" n="Person ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GET_NAME" pi="" n="GET_NAME" sp="1" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PLSSE_GTA_EDIT_CLOCK" pn="" pct="0" n="Request Petition (mirror table)">
+		<item id="SYS_PARAM" pi="" n="SYS_PARAM" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="33" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_SENTENCE" pi="" n="SYS_SENTENCE" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="20" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="SYS_PARAM"/>
+		<item id="EXECUTEREALSQL" pi="" n="EXECUTEREALSQL" sp="1" tp="4" mtp="3" pr="-1" sc="0" or="0" dv="" va="1" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="PLCO_ID_HR" pi="" n="PLCO_ID_HR" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IS_RW" pi="" n="PLCO_IS_RW" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="MSS" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_COMMENT" pi="" n="PSCO_COMMENT" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_DT_START" pi="" n="PSCO_DT_START" sp="2" tp="2" mtp="4" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_OR_HR_PERIOD" pi="" n="PLCO_OR_HR_PERIOD" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_IDS_CLOCK_REASON" pi="" n="PSCO_IDS_CLOCK_REASON" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_LONG_MODIFY_CLOCK" pi="" n="PSCO_LONG_MODIFY_CLOCK" sp="2" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_LONG_ORIGINAL_CLOCK" pi="" n="PSCO_LONG_ORIGINAL_CLOCK" sp="2" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_LONG_MODIFY_TRANSLATED" pi="" n="PSCO_LONG_MODIFY_TRANSLATED" sp="2" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ORDINAL" pi="" n="ORDINAL" sp="3" tp="3" mtp="6" pr="10" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="1" ai=""/>
+		<item id="STD_ID_HR" pi="" n="Employee ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="14" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_COMMENT" pi="" n="Comment" sp="3" tp="3" mtp="2" pr="254" sc="0" or="19" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_START" pi="" n="Day" sp="3" tp="3" mtp="5" pr="19" sc="0" or="16" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="ID_ESTADO_REG" pi="" n="Record Status" sp="3" tp="3" mtp="2" pr="10" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="MAIL_EMPLEADO" pi="" n="Employee E-mail Address" sp="3" tp="3" mtp="2" pr="254" sc="0" or="6" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="STD_ID_PERSON" pi="" n="Person ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="7" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="NIVEL_ACEPTADO" pi="" n="LEVEL_ACCEPTED" sp="3" tp="3" mtp="6" pr="1" sc="0" or="4" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="ACCION_ACEPTADO" pi="" n="Action Once Accepted" sp="3" tp="3" mtp="2" pr="10" sc="0" or="3" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="NOMBRE_EMPLEADO" pi="" n="Employee Name" sp="3" tp="3" mtp="2" pr="254" sc="0" or="5" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_COMMENT_MSS" pi="" n="Manager Comment" sp="3" tp="3" mtp="2" pr="254" sc="0" or="26" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_DAY_TYPE" pi="" n="Day Type ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="17" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="SCO_NM_DAY_TYPE" pi="" n="Day Type Name" sp="3" tp="3" mtp="2" pr="62" sc="0" or="18" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="MAIL_RESPONSABLE" pi="" n="MAIL_RESPONSABLE" sp="3" tp="3" mtp="2" pr="254" sc="0" or="10" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DATE_REQUEST" pi="" n="Request Date" sp="3" tp="3" mtp="5" pr="19" sc="0" or="12" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="STD_OR_HR_PERIOD" pi="" n="HR Period Number" sp="3" tp="3" mtp="6" pr="4" sc="0" or="15" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="MAIL_RESPONSABLE2" pi="" n="MAIL_RESPONSABLE2" sp="3" tp="3" mtp="2" pr="254" sc="0" or="11" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_DAY_NAME" pi="" n="Day Name" sp="3" tp="4" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DATE_VALIDATE" pi="" n="Validation Date" sp="3" tp="3" mtp="5" pr="19" sc="0" or="13" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_END_OF_DAY" pi="" n="Day End Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="24" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_WORK_THEO_HRS" pi="" n="Scheduled Hours Worked" sp="3" tp="3" mtp="6" pr="9" sc="6" or="20" dv="" va="0" vi="1" it="89" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DAY_TYPE" pi="" n="Day Type" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="STD_ID_PERSON_RESP" pi="" n="Manager ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="8" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DIV_THEOR" pi="" n="Scheduled Timetable" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TABLE_DAY" pi="" n="Day" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DT_START_OF_DAY" pi="" n="Day Start Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="22" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="STD_ID_PERSON_RESP2" pi="" n="Manager 2 ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="9" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_ID_DAY_WEEK" pi="" n="Day of the Week" sp="3" tp="4" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IDS_CLOCK_REASON" pi="" n="Clocking Reason IDs" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="20" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_LONG_MODIFY_CLOCK" pi="" n="Clocking Events to Modify" sp="3" tp="3" mtp="3" pr="-1" sc="0" or="17" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DIV_CLOCKING" pi="" n="Clocking Event" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ACTION_MSS_REQUEST" pi="" n="PLCO_ACTION_MSS_REQUEST" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="0" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TABLE_DAY_DIV" pi="" n="Day" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_ID_STATUS_TIMESHEET" pi="" n="Timesheet Status ID" sp="3" tp="3" mtp="2" pr="2" sc="0" or="7" dv="00" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_MODIFY_CLOCK" pi="" n="Visible Clockings to Modify" sp="3" tp="3" mtp="3" pr="-1" sc="0" or="18" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_TRANSLATED_TIMESLOT" pi="" n="Retrieve Day Time Slots" sp="3" tp="4" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_ORIGINAL_CLOCK" pi="" n="Visible Original Clockings" sp="3" tp="3" mtp="3" pr="-1" sc="0" or="23" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TIMESLOT_PER_1" pi="" n="Time Slots" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="20" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DIV_CLOCKING_REQUEST" pi="" n="Requested Clocking" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TIMESLOT_PERIOD" pi="" n="Time Slots" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="19" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DESTROYBLOCK" pi="" n="DESTROYBLOCK" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PMCO_SEND_REQUEST" pi="" n="Send Request" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="1"/>
+		</item>
+		<item id="PMCO_LOAD_REQUESTS" pi="" n="MSS: Load Pending Requests" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+			<arg mtp="2"/>
+		</item>
+		<item id="PSCO_LOAD_REQUESTS" pi="" n="Load Pending Requests" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_DELETE_REQUEST" pi="" n="PSCO_DELETE_REQUESTT" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="PSCO_INSERT_NEW_REQUEST" pi="" n="PSCO_INSERT_NEW_REQUEST" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_INFO_TABLE_REQUEST" pi="LOAD_BLK" n="Set Pending Request Table Data" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_CLOCKS_ACCEPT_BY_MSS" pi="" n="Set Clocking Modification" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PSCO_CONFIG_PARAM_WF" pn="" pct="0" n="PSCO_CONFIG_PARAM_WF">
+		<item id="PRP_ID_HR" pi="" n="HR ID" sp="1" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_IS_ESS" pi="" n="ESS?" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_JSP_VAL" pi="" n="Validation JSP" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_SENTENCE" pi="" n="Logical Statement" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="20" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="SYS_PARAMETERS"/>
+		<item id="PRP_MAX_LEVEL" pi="" n="PRP_MAX_LEVEL" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_SEND_MAIL" pi="" n="Send E-mail" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_CHANNEL" pi="" n="PRP_ID_CHANNEL" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ORD_PERIOD" pi="" n="Period Ord." sp="1" tp="2" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_PARAMETERS" pi="" n="Logical Statement Parameters" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="33" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_CONFIG_MAIL" pi="" n="E-mail Configuration" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_HAS_VALIDATE" pi="" n="Validation activated" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_VALIDATOR" pi="" n="Validator ID" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_ESTADO_REG" pi="" n="PRP_ID_ESTADO_REG" sp="1" tp="2" mtp="2" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_NAME_EMPLOYEE" pi="" n="Employee Name" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EMAIL_EMPLOYEE" pi="" n="Employee E-mail" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EMAIL_OPTIONAL" pi="" n="Optional E-mail Address" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_VALIDATOR_2" pi="" n="Validator 2 ID" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EMAIL_VALIDATOR" pi="" n="Validator E-mail" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EXIST_VALIDATOR" pi="" n="PLCO_EXIST_VALIDATOR" sp="1" tp="2" mtp="2" pr="2" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_EMAIL_VALIDATOR_2" pi="" n="Validator 2 E-mail" sp="1" tp="2" mtp="2" pr="254" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PRP_ID_NODE_STRUCTURE" pi="" n="PLCO_ID_NODE_STRUCTURE" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="NIVEL" pi="" n="Configuration Level" sp="3" tp="3" mtp="6" pr="1" sc="0" or="3" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="0" pk="1" ai=""/>
+		<item id="CONFIG_MAIL" pi="" n="E-mail Configuration" sp="3" tp="3" mtp="2" pr="5" sc="0" or="5" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ID_M4OBJECT" pi="" n="Meta4Object ID" sp="3" tp="3" mtp="2" pr="30" sc="0" or="9" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="0" pk="1" ai=""/>
+		<item id="TP_CALC_RESP" pi="" n="Manager Calculation Type" sp="3" tp="3" mtp="2" pr="30" sc="0" or="6" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MAIL_OPCIONAL" pi="" n="Optional E-mail Address" sp="3" tp="3" mtp="2" pr="254" sc="0" or="4" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COMPORTAMIENTO" pi="" n="Behavior" sp="3" tp="3" mtp="2" pr="10" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="JSP_VALIDACION" pi="" n="Address to Validation JSP" sp="3" tp="3" mtp="2" pr="254" sc="0" or="7" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_ID_ESS_NODE" pi="" n="ESS Table Node ID" sp="3" tp="3" mtp="2" pr="30" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="JSP_REDIRECCION_VAL" pi="" n="Redirection if Validation" sp="3" tp="3" mtp="2" pr="254" sc="0" or="8" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_BEHAVIOR_RESPONSIBLE" pi="" n="Manager Calculation Behavior" sp="3" tp="3" mtp="6" pr="1" sc="0" or="10" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="_LOAD_CONFIG" pi="" n="Load Configuration" sp="1" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_GET_CONFIG" pi="" n="Get Configuration" sp="1" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="GETBASECHANNELID" pi="" n="Base ID" sp="1" tp="1" mtp="2" pr="100" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_CHECK_VALIDATOR" pi="" n="Check Validator" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_GET_HAS_VALIDATION" pi="" n="Process with Validation" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_GET_SEND_MAIL_ENABLED" pi="" n="E-mail Delivery Enabled" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PLCO_GTA_CLOCK_REASON" pn="" pct="0" n="PLCO_GTA_CLOCK_REASON">
+		<item id="PLCO_ID_SHORT_RETURN" pi="" n="PLCO_ID_SHORT_RETURN" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_REASON" pi="" n="Clocking Reason ID" sp="3" tp="3" mtp="2" pr="50" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="PLCO_NM_CLOCK_REASON" pi="" n="Clocking Reason Name" sp="3" tp="3" mtp="2" pr="100" sc="0" or="2" dv="" va="0" vi="1" it="8" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_REASON_IO_TP" pi="" n="Entry/Exit Type" sp="3" tp="3" mtp="6" pr="2" sc="0" or="4" dv="2.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_REASON_SHORT" pi="" n="Short Reason ID" sp="3" tp="3" mtp="2" pr="3" sc="0" or="3" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DESTROYBLOCK" pi="" n="DESTROYBLOCK" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_HAS_CLOCK_REASONS" pi="" n="PLCO_HAS_CLOCK_REASONS" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_NAME_REASON_FROM_ID" pi="" n="PLCO_NAME_REASON_FROM_ID" sp="2" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="PLCO_ID_REASON_FROM_ID_SHORT" pi="" n="PLCO_ID_REASON_FROM_ID_SHORT" sp="2" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="PLCO_ID_SHORT_REASON_FROM_ID" pi="" n="PLCO_ID_SHORT_REASON_FROM_ID" sp="2" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="PLCO_NAME_REASON_FROM_ID_SHORT" pi="" n="PLCO_NAME_REASON_FROM_ID_SHORT" sp="2" tp="1" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+	</node>
+	<node id="PSCO_EDIT_CLOCK_GTA_RWD" pn="" pct="0" n="ATM: Work Time">
+		<item id="SYS_PARAM" pi="" n="SYS_PARAM" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="33" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_SENTENCE" pi="" n="SYS_SENTENCE" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="20" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="SYS_PARAM"/>
+		<item id="DT_START" pi="" n="Start Date" sp="3" tp="3" mtp="4" pr="10" sc="0" or="3" dv="" va="0" vi="1" it="2" ckn="0" cln="0" nn="1" ab="1" pk="1" ai=""/>
+		<item id="STD_ID_HR" pi="" n="Employee ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="SCO_ABS_DAY" pi="" n="Absence Incident Day" sp="3" tp="3" mtp="6" pr="5" sc="2" or="24" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ABS_HRS" pi="" n="Absence Incident Hours" sp="3" tp="3" mtp="6" pr="9" sc="6" or="19" dv="" va="0" vi="1" it="89" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_OR_WEEK" pi="" n="Week Type ID" sp="3" tp="3" mtp="6" pr="9" sc="0" or="10" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_ORIGIN" pi="" n="Source" sp="3" tp="3" mtp="6" pr="2" sc="0" or="6" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_STATUS" pi="" n="Status ID" sp="3" tp="3" mtp="6" pr="2" sc="0" or="4" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="1" ai=""/>
+		<item id="SCO_ID_REF_MOD" pi="" n="Template ID" sp="3" tp="3" mtp="2" pr="12" sc="0" or="7" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_OR_REF_MOD" pi="" n="First Week" sp="3" tp="3" mtp="6" pr="3" sc="0" or="8" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ABS_CAL_DAY" pi="" n="Holiday Absence Day" sp="3" tp="3" mtp="6" pr="5" sc="2" or="23" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ABS_CAL_HRS" pi="" n="Holiday Absence Hours" sp="3" tp="3" mtp="6" pr="9" sc="6" or="18" dv="" va="0" vi="1" it="89" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_CALENDAR" pi="" n="Calendar ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="11" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_DAY_TYPE" pi="" n="Day Type ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="12" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_WEEK_MDL" pi="" n="Weekly Template ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="9" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_NM_DAY_TYPE" pi="" n="Day Type Name" sp="3" tp="3" mtp="2" pr="62" sc="0" or="13" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="SCO_ID_TIMETABLE" pi="" n="Timetable ID" sp="3" tp="3" mtp="2" pr="20" sc="0" or="16" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="STD_OR_HR_PERIOD" pi="" n="HR Period Number" sp="3" tp="3" mtp="6" pr="4" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="1" ai=""/>
+		<item id="PLCO_GET_DAY_NAME" pi="" n="Day Name" sp="3" tp="4" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DT_END_OF_DAY" pi="" n="Day End Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="21" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_REAL_WORK_DAY" pi="" n="Effective Days Worked" sp="3" tp="3" mtp="6" pr="5" sc="2" or="25" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_WORK_THEO_DAY" pi="" n="Scheduled Days Worked" sp="3" tp="3" mtp="6" pr="5" sc="2" or="22" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_WORK_THEO_HRS" pi="" n="Scheduled Hours Worked" sp="3" tp="3" mtp="6" pr="9" sc="6" or="17" dv="" va="0" vi="1" it="89" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_START_OF_DAY" pi="" n="Day Start Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="20" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_ID_DAY_WEEK" pi="" n="Day of the Week" sp="3" tp="4" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_ID_DAYCALEN_TYPE" pi="" n="Holiday Type ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="15" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_IDS_CLOCK_REASON" pi="" n="Clocking Reason IDs" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="31" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TS_REAL" pi="" n="Real Time Slots (effect.)" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="30" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_STATUS_TIMESHEET" pi="" n="Timesheet Status ID" sp="3" tp="3" mtp="2" pr="2" sc="0" or="5" dv="00" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_TRANSLATED_TIMESLOT" pi="" n="Retrieve Day Time Slots" sp="3" tp="4" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TIMESLOT_PER_1" pi="" n="Time Slots" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="14" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TS_GROSS_CLOCK" pi="" n="Gross Clocking Time Slots" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="28" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_NUM_AVG_HRS_DAY_4_UNIT_DAY" pi="" n="Daily Hours for Unit" sp="3" tp="3" mtp="6" pr="9" sc="6" or="26" dv="" va="0" vi="1" it="89" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TIMESLOT_PERIOD" pi="" n="Scheduled Time Slots" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="27" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TS_GRS_CLOCK_SE" pi="" n="Gross Clocking Time Slots w/Sec." sp="3" tp="3" mtp="2" pr="2000" sc="0" or="29" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DESTROYBLOCK" pi="" n="DestroyBlock" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_LOAD_RWD_FROM_DATE" pi="" n="Load Real Working Days for a Date" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PLCO_SET_STRING_CLOCK_FROM_TS" pi="" n="Set Employee&apos;s Clocking String (Time Slots)" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_TIMESLOTS_FROM_CLOCKS" pi="PLCO_LOAD_RWD_FROM_DATE" n="Set Time Slots from Clockings" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PLCO_GTA_H_GTA_DATA" pn="PSCO_EDIT_CLOCK_GTA_RWD" pct="1" n="ATM History">
+		<item id="PLCO_DATE_LOAD" pi="" n="Date" sp="1" tp="2" mtp="4" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_HR_LOAD" pi="" n="PLCO_ID_HR_LOAD" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_OR_HR_PERIOD_LOAD" pi="" n="PLCO_OR_HR_PERIOD_LOAD" sp="1" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_ID_HR" pi="" n="Employee ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="SCO_DT_END" pi="" n="End Date" sp="3" tp="3" mtp="4" pr="10" sc="0" or="4" dv="4000-01-01 00:00:00" va="0" vi="1" it="3" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_START" pi="" n="Start Date" sp="3" tp="3" mtp="4" pr="10" sc="0" or="3" dv="" va="0" vi="1" it="2" ckn="0" cln="0" nn="1" ab="1" pk="1" ai=""/>
+		<item id="SCO_CLOCKINOUT" pi="" n="Clocks in/out" sp="3" tp="3" mtp="2" pr="1" sc="0" or="8" dv="0" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_CARD_NUMBER" pi="" n="Card Number" sp="3" tp="3" mtp="2" pr="100" sc="0" or="9" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DECLARATIVE" pi="" n="Declares" sp="3" tp="3" mtp="2" pr="1" sc="0" or="11" dv="0" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_OR_HR_PERIOD" pi="" n="HR Period No." sp="3" tp="3" mtp="6" pr="4" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="1" ai=""/>
+		<item id="SCO_GTA_MANAGEMENT" pi="" n="ATM Management" sp="3" tp="3" mtp="2" pr="1" sc="0" or="5" dv="1" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_TIMESHEET_MONTH" pi="" n="Timesheet: Monthly(1)/Weekly" sp="3" tp="3" mtp="2" pr="1" sc="0" or="12" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_MANAGEMENT_BY_DAYS" pi="" n="Management by Days" sp="3" tp="3" mtp="2" pr="1" sc="0" or="6" dv="0" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="PLCO_WITH_VIRTUAL_CLOCK" pi="" n="With Virtual Web Clocking" sp="3" tp="3" mtp="2" pr="1" sc="0" or="13" dv="0" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_CYCLE_WITH_TIME_SLOT" pi="" n="Template with Time Slots" sp="3" tp="3" mtp="2" pr="1" sc="0" or="7" dv="0" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_CLOCK_MACHINE_GRP" pi="" n="Time Clock Group ID" sp="3" tp="3" mtp="2" pr="40" sc="0" or="10" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="SRCO_GTA_RWD_CLOCK_VA" pn="PSCO_EDIT_CLOCK_GTA_RWD" pct="1" n="SRCO_GTA_RWD_CLOCK_VA">
+		<item id="SYS_PARAM" pi="" n="SYS_PARAM" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="33" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_IN" pi="" n="Entry" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_SENTENCE" pi="" n="SYS_SENTENCE" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="20" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="SYS_PARAM"/>
+		<item id="PLCO_TEXT_OUT" pi="" n="Output" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_CLOCK" pi="" n="Clocking" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_COORD" pi="" n="Coordinates" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TITLE" pi="" n="Clocking Information Details" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_IN_OUT" pi="" n="In / Out" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ACCURACY" pi="" n="Precision" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="STD_ID_HR" pi="STD_ID_HR" n="Employee ID" sp="2" tp="3" mtp="2" pr="9" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="PLCO_ID_HR" pi="STD_ID_HR" n="Connected HR ID" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_GEO_LAT" pi="" n="Latitude" sp="2" tp="2" mtp="6" pr="18" sc="15" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="STD_OR_HR_PERIOD" pi="STD_OR_HR_PERIOD" n="HR Period No." sp="2" tp="3" mtp="6" pr="4" sc="0" or="5" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="PLCO_OR_HR_PERIOD" pi="STD_OR_HR_PERIOD" n="Connected Period Ordinal" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_GEO_LONG" pi="" n="Longitude" sp="2" tp="2" mtp="6" pr="18" sc="15" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_GEO_ERROR" pi="" n="Geolocation Error" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DT_END_TO_LOAD" pi="SCO_DT_END_OF_DAY" n="End Date to Load" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_IP_ADDRESS" pi="" n="IP Address" sp="2" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DT_START_TO_LOAD" pi="SCO_DT_START_OF_DAY" n="Start Date to Load" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_CLOCKED_FROM" pi="" n="Clocking Source ID" sp="2" tp="2" mtp="2" pr="2" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_GEO_ACCURACY" pi="" n="Geolocation Accuracy" sp="2" tp="2" mtp="6" pr="18" sc="4" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_GEO_DATETIME" pi="" n="Geolocation Date and Time" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_ERROR_MSG_CODE" pi="" n="Error Message Code" sp="2" tp="2" mtp="2" pr="20" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_ID_CLOCK_MACHINE" pi="" n="Time Clock ID" sp="2" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_ID_CLOCK_MACHINE_GRP" pi="" n="Time Clock Group ID" sp="2" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ID_APPROLE" pi="" n="Application Role ID" sp="3" tp="3" mtp="2" pr="30" sc="0" or="12" dv="" va="0" vi="0" it="31" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_CUR" pi="" n="Current Day" sp="3" tp="2" mtp="4" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ID_APP_USER" pi="" n="Application User ID" sp="3" tp="3" mtp="2" pr="30" sc="0" or="11" dv="" va="0" vi="1" it="30" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_LAT" pi="" n="Latitude" sp="3" tp="3" mtp="6" pr="18" sc="15" or="14" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_LONG" pi="" n="Longitude" sp="3" tp="3" mtp="6" pr="18" sc="15" or="15" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_ORIGIN" pi="" n="Source ID" sp="3" tp="3" mtp="6" pr="2" sc="0" or="8" dv="2.000000" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_STATUS" pi="" n="Status ID" sp="3" tp="3" mtp="6" pr="2" sc="0" or="7" dv="2.000000" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="SCO_IN_OR_OUT" pi="" n="(1) In or (0) Out" sp="3" tp="3" mtp="2" pr="1" sc="0" or="3" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="DT_LAST_UPDATE" pi="" n="Date Last Updated" sp="3" tp="3" mtp="5" pr="19" sc="0" or="2" dv="" va="0" vi="1" it="6" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_ERROR" pi="" n="Geolocation Error" sp="3" tp="3" mtp="2" pr="255" sc="0" or="20" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_IP_ADDRESS" pi="" n="IP Address" sp="3" tp="3" mtp="2" pr="40" sc="0" or="13" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_CLOCKED_FROM" pi="" n="Clocking Source ID" sp="3" tp="3" mtp="2" pr="2" sc="0" or="24" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_ACCURACY" pi="" n="Geolocation Accuracy" sp="3" tp="3" mtp="6" pr="18" sc="4" or="16" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_DATETIME" pi="" n="Geolocation Date and Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="17" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_CLOCK_ACTIV_TP" pi="" n="Clocking Activity" sp="3" tp="3" mtp="2" pr="100" sc="0" or="4" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_ERROR_MSG_CODE" pi="" n="Error Message Code" sp="3" tp="3" mtp="2" pr="20" sc="0" or="26" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_REASON" pi="" n="Clocking Reason ID" sp="3" tp="3" mtp="2" pr="50" sc="0" or="9" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_NM_CLOCK_REASON" pi="" n="Clocking Reason" sp="3" tp="3" mtp="2" pr="100" sc="0" or="21" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="PLCO_NM_CLOCK_SOURCE" pi="" n="Clocking Source" sp="3" tp="3" mtp="2" pr="62" sc="0" or="25" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="SCO_DT_DATE_AND_HOUR" pi="" n="Date and Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="6" dv="" va="0" vi="1" it="1" ckn="0" cln="1" nn="1" ab="1" pk="1" ai=""/>
+		<item id="PLCO_ID_CLOCK_MACHINE" pi="" n="Time Clock ID" sp="3" tp="3" mtp="2" pr="40" sc="0" or="18" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_NM_CLOCK_MACHINE" pi="" n="Time Clock Name" sp="3" tp="3" mtp="2" pr="62" sc="0" or="22" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="SCO_ID_CLOCK_MACHINE_GRP" pi="" n="Time Clock Group ID" sp="3" tp="3" mtp="2" pr="40" sc="0" or="19" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_NM_CLOCK_MACHINE_GRP" pi="" n="Time Clock Group Name" sp="3" tp="3" mtp="2" pr="62" sc="0" or="23" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_REASON_SHORT" pi="" n="Short Reason ID" sp="3" tp="3" mtp="2" pr="3" sc="0" or="10" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISNEW" pi="" n="ISNEW" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="GONEXT" pi="" n="GONEXT" sp="1" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISDELETED" pi="" n="ISDELETED" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SETINSERTED" pi="" n="SETINSERTED" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DESTROYBLOCK" pi="DESTROYBLOCK" n="DESTROYBLOCK" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="CLONEREGISTER" pi="" n="CLONEREGISTER" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DESTROYREGISTER" pi="" n="DESTROYREGISTER" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETEALLREGISTERS" pi="" n="DELETEALLREGISTERS" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ADD_REGISTER_DATE_GEO" pi="" n="Add Clocking Event with Geolocation Data and Date" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="5"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="5"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+		</item>
+		<item id="PLCO_ADD_REGISTER_FROM_DATE" pi="" n="Add Clocking with Date As Argument" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="5"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PLCO_FILTER_CLOCKS_STATUS_2" pi="LOAD_BLK" n="Valid Clocking Filter" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ADD_REGISTER_DATE_REASON" pi="" n="Add Clocking with Date and Reason As Argument" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="5"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="2"/>
+		</item>
+	</node>
+	<node id="PLCO_GTA_TIMESLOTS_CLOCKSDECLS" pn="PSCO_EDIT_CLOCK_GTA_RWD" pct="1" n="PLCO_GTA_TIMESLOTS_CLOCKSDECLS">
+		<item id="PLCO_IS_ESS" pi="" n="ESS / MSS Flag for Clocking Reasons" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_OF" pi="" n="From" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TO" pi="" n="To" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEREALSQL" pi="" n="EXECUTEREALSQL" sp="1" tp="4" mtp="3" pr="-1" sc="0" or="0" dv="" va="1" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="PLCO_TEXT_COPY" pi="" n="Copy" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_FROM" pi="" n="From" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_MAPS" pi="" n="Map" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_PASTE" pi="" n="Paste" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DELETE" pi="" n="Delete" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INSERT" pi="" n="Add New" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_TS" pi="" n="The time slots must be" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CLOCK_DAY_NOON" pi="" n="Empl. Clocking in Days: Half Day" sp="1" tp="2" mtp="12" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_COPY_POPUP" pi="" n="New!" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_DECL" pi="" n="The presence hours declared" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_FILL" pi="" n="Enter the start and end time" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_TS_2" pi="" n="between" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_TS_3" pi="" n="and" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CLOCK_DAY_MNG_TP" pi="" n="Management Type for Empl. Clocking in Days" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CONFIG_VIEW_MAPS" pi="" n="Indicate whether the maps are shown and to whom" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_CHECK_POPUP" pi="" n="Do not show again" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_COPY_POPUP1" pi="" n="Here you can copy and paste full days" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_LINES_POPUP" pi="" n="Here you can add or delete lines" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CONFIG_MAPS_TOKEN" pi="" n="PLCO_CONFIG_MAPS_TOKEN" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_BUTTON_POPUP" pi="" n="Close" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_FORMAT_ERROR" pi="" n="The time format you entered is incorrect" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INSERT_AFTER" pi="" n="Insert After" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INSERT_CARRY" pi="" n="Insert and Move Clocking Events" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_MORE_DETAILS" pi="" n="More Details" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DT_HOUR_POPUP_INFO" pi="" n="Pop-up Info. Timepicker" sp="1" tp="2" mtp="12" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INSERT_BEFORE" pi="" n="Insert Before" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DEL_UNDO_CARRY" pi="" n="Delete and Move Clocking Events" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_PRESENCE_DIARY" pi="" n="Daily Presence" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DUPLICATED_TIME" pi="" n="Duplicated Time" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_DECL_ZERO" pi="" n="The declared hours must be greater than 0" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_DECL_DAILY" pi="" n="a day must be less than 23" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_PRESENCE_MORNING" pi="" n="Morning Presence" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TIMEPICKER_POPUP" pi="" n="To go faster: enter 9 and click" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_EMPLOYEE_HAS_REASON_IN" pi="" n="Flag Has Clock-in Reasons" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INFORMATION_POPUP" pi="" n="Information" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_INSERT_CARRY_DECL" pi="" n="Insert and Move Declarations" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TIMEPICKER_POPUP1" pi="" n="the tab" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TIMEPICKER_POPUP2" pi="" n="or leave the box and it will become 9:00." sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TIMEPICKER_POPUP3" pi="" n="And if you enter 9 30 or 9.30 (space or point)" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TIMEPICKER_POPUP4" pi="" n="it will become 9:30" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_EMPLOYEE_HAS_REASON_OUT" pi="" n="Flag Has Clock-out Reasons" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_DECL_MORNING" pi="" n="in the morning must be less than 12" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_PRESENCE_AFTERNOON" pi="" n="Afternoon Presence" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CONFIG_VIEW_CLOCK_IN_OUT" pi="" n="Indicate whether clocking details are shown" sp="1" tp="2" mtp="2" pr="30" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DEL_UNDO_CARRY_DECL" pi="" n="Delete and Move Declarations" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_EDIT_CLOCK_DECL_IN_FUTURE" pi="" n="PLCO_EDIT_CLOCK_DECL_IN_FUTURE" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="1.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_EMPLOYEE_HAS_CLOCK_REASON" pi="" n="Flag Has Clocking Reasons" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_ERROR_DECL_AFTERNOON" pi="" n="in the afternoon must be less than 11" sp="1" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DT_START" pi="" n="Date" sp="2" tp="2" mtp="4" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_WITH_ERROR" pi="" n="Error?" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_MAX_ORDINAL" pi="" n="Maximum Block Ordinal" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_HAVE_CHANGES" pi="" n="There are changes" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_REAL_WORK_DAY" pi="" n="Effective Days Worked" sp="2" tp="2" mtp="6" pr="5" sc="2" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_WORK_THEO_HRS" pi="" n="Scheduled Hours Worked" sp="2" tp="2" mtp="6" pr="9" sc="6" or="0" dv="" va="0" vi="0" it="89" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_PRESENCE_DAILY" pi="" n="Daily Presence" sp="2" tp="2" mtp="6" pr="5" sc="0" or="0" dv="" va="0" vi="0" it="89" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_PRESENCE_MORNING" pi="" n="Morning Presence" sp="2" tp="2" mtp="6" pr="5" sc="0" or="0" dv="" va="0" vi="0" it="89" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_STRING_TIMESLOTS" pi="" n="PLCO_STRING_TIMESLOTS" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IS_EMPLOYEE_CLOCK" pi="" n="Clocking Employee" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_REF_MODEL_WITH_TS" pi="" n="Template with Time Slots" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CHECKS_SHOW_LABELS" pi="" n="Show Presence Check Box Labels" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_PRESENCE_AFTERNOON" pi="" n="Afternoon Presence" sp="2" tp="2" mtp="6" pr="5" sc="0" or="0" dv="" va="0" vi="0" it="89" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IS_EMPLOYEE_IN_DAYS" pi="" n="Employee Managed in Days" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CHECK_PRESENCE_DIARY" pi="" n="Day" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_IS_EDITABLE_TIMESLOT" pi="" n="Editable Time Slots" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="1.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IS_EMPLOYEE_NEGATIVE" pi="" n="Negative Employee" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_STRING_ORIGINAL_CLOCK" pi="" n="PLCO_STRING_ORIGINAL_CLOCK" sp="2" tp="2" mtp="2" pr="9999" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TOTAL_TIMESLOTS_HOURS" pi="" n="Total No. of Time Slot Hours" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="89" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CHECK_PRESENCE_MORNING" pi="" n="Morning" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_END_OF_DAY_AUX_CLOCK" pi="" n="SCO_DT_END_OF_DAY_AUX_CLOCK" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IS_EMPLOYEE_DECLARATIVE" pi="" n="Declarative Employee" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CHECK_PRESENCE_AFTERNOON" pi="" n="Afternoon" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_NUMBER_LINES_WITHOUT_CLK" pi="" n="Number of Slots to Insert Without Clocking" sp="2" tp="2" mtp="6" pr="1" sc="0" or="0" dv="1.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DT_START_OF_DAY_AUX_CLOCK" pi="" n="SCO_DT_START_OF_DAY_AUX_CLOCK" sp="2" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CHECKS_MORNINGAFTER_DIARY" pi="" n="Morning/Afternoon or Daily Check Box" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_NUM_AVG_HRS_DAY_4_UNIT_DAY" pi="" n="Daily Hours for Unit" sp="2" tp="2" mtp="6" pr="9" sc="6" or="0" dv="" va="0" vi="0" it="89" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DT_END" pi="" n="End Date" sp="3" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_ORDINAL" pi="" n="Ordinal" sp="3" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DT_START" pi="" n="Start Date" sp="3" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_CARRY_END" pi="" n="Move to End" sp="3" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_LAT_IN" pi="" n="Clock-in Latitude" sp="3" tp="2" mtp="6" pr="18" sc="15" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CARRY_START" pi="" n="Move to Start" sp="3" tp="2" mtp="6" pr="18" sc="0" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DT_END_HOUR" pi="" n="End Time" sp="3" tp="2" mtp="12" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_LAT_OUT" pi="" n="Clock-out Latitude" sp="3" tp="2" mtp="6" pr="18" sc="15" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_LONG_IN" pi="" n="Clock-in Longitude" sp="3" tp="2" mtp="6" pr="18" sc="15" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_ERROR_IN" pi="" n="PLCO_GEO_ERROR_IN" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_LONG_OUT" pi="" n="Clock-out Longitude" sp="3" tp="2" mtp="6" pr="18" sc="15" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DT_START_HOUR" pi="" n="Start Time" sp="3" tp="2" mtp="12" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GEO_ERROR_OUT" pi="" n="PLCO_GEO_ERROR_OUT" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IP_ADDRESS_IN" pi="" n="IP Address in Clock-in" sp="3" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IP_ADDRESS_OUT" pi="" n="IP Address in Clock-out" sp="3" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TIMESLOT_HOURS" pi="" n="Time Slot Hours" sp="3" tp="2" mtp="6" pr="20" sc="2" or="0" dv="0.000000" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CLOCKED_FROM_IN" pi="" n="PLCO_CLOCKED_FROM_IN" sp="3" tp="2" mtp="2" pr="2" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_ACCURACY_IN" pi="" n="Arrival Geolocation Accuracy" sp="3" tp="2" mtp="6" pr="18" sc="4" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_DATETIME_IN" pi="" n="Arrival Geolocation Date and Time" sp="3" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CLOCKED_FROM_OUT" pi="" n="PLCO_CLOCKED_FROM_OUT" sp="3" tp="2" mtp="2" pr="2" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_ACCURACY_OUT" pi="" n="Departure Geolocation Accuracy" sp="3" tp="2" mtp="6" pr="18" sc="4" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GEO_DATETIME_OUT" pi="" n="Departure Geolocation Date and Time" sp="3" tp="2" mtp="5" pr="19" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ERROR_MSG_CODE_IN" pi="" n="PLCO_ERROR_MSG_CODE_IN" sp="3" tp="2" mtp="2" pr="20" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ERROR_MSG_CODE_OUT" pi="" n="PLCO_ERROR_MSG_CODE_OUT" sp="3" tp="2" mtp="2" pr="20" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_REASON_IN" pi="" n="PLCO_ID_CLOCK_REASON_IN" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_MACHINE_IN" pi="" n="Arrival Time Clock ID" sp="3" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_REASON_OUT" pi="" n="PLCO_ID_CLOCK_REASON_OUT" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_MACHINE_OUT" pi="" n="Departure Time Clock ID" sp="3" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_NAME_CLOCK_REASON_IN" pi="" n="Start Reason Name" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_NAME_CLOCK_REASON_OUT" pi="" n="End Reason Name" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_MACHINE_GRP_IN" pi="" n="Arrival Time Clock Group ID" sp="3" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_CLOCK_MACHINE_GRP_OUT" pi="" n="Departure Time Clock Group ID" sp="3" tp="2" mtp="2" pr="40" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_SHORT_CLOCK_REASON_IN" pi="" n="Start Reason" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_SHORT_CLOCK_REASON_OUT" pi="" n="End Reason" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SORT" pi="" n="SORT" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="1" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISDELETED" pi="" n="ISDELETED" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_HOUR_FROM_DATE" pi="PLCO_ADD_TIMESLOT_FROM_DATES" n="Set Hours from Dates" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CALC_TOTAL_TS_HOURS" pi="" n="Time Slot Total Hour Calculation" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_CLOCKS_TO_STRING" pi="" n="Set Clocking Events to String" sp="2" tp="1" mtp="2" pr="9999" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_LOAD_HAS_CLOCK_REASON" pi="" n="Load Clocking Reasons (if any)" sp="1" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ADD_TIMESLOT_FROM_DATES" pi="" n="Add Time Slot" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="5"/>
+			<arg mtp="5"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="6"/>
+			<arg mtp="5"/>
+			<arg mtp="5"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+		</item>
+		<item id="PLCO_SET_TIMESLOTS_TO_STRING" pi="" n="PLCO_SET_TIMESLOTS_TO_STRING" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_ORDINAL_FROM_MAX_ORD" pi="ADDREGISTER" n="Set Ordinal" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_CLOCKS_FROM_TIMESLOTS" pi="" n="Go from Property Node to Field Node" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_TIMESLOTS_FROM_CLOCKS" pi="" n="Go from Field Node to Property Node" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PLSSE_GTA_EDIT_CLOCK_ACCEPT" pn="" pct="0" n="PLSSE_GTA_EDIT_CLOCK_ACCEPT">
+		<item id="SYS_PARAM" pi="" n="SYS_PARAM" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="33" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SYS_SENTENCE" pi="" n="SYS_SENTENCE" sp="1" tp="2" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="0" it="20" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="SYS_PARAM"/>
+		<item id="PLCO_ID_HR" pi="" n="PLCO_ID_HR" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_OR_HR_PERIOD" pi="" n="PLCO_OR_HR_PERIOD" sp="2" tp="2" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ORDINAL" pi="" n="ORDINAL" sp="3" tp="3" mtp="6" pr="10" sc="0" or="1" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="1" pk="1" ai=""/>
+		<item id="STD_ID_HR" pi="" n="Employee ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="14" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_COMMENT" pi="" n="Comment" sp="3" tp="3" mtp="2" pr="254" sc="0" or="19" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_START" pi="" n="Clocking Day to Modify" sp="3" tp="3" mtp="5" pr="19" sc="0" or="16" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="ID_ESTADO_REG" pi="" n="Record Status" sp="3" tp="3" mtp="2" pr="10" sc="0" or="2" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="MAIL_EMPLEADO" pi="" n="Employee E-mail Address" sp="3" tp="3" mtp="2" pr="254" sc="0" or="6" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="STD_ID_PERSON" pi="" n="Person ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="7" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="NIVEL_ACEPTADO" pi="" n="NIVEL_ACEPTADO" sp="3" tp="3" mtp="6" pr="1" sc="0" or="4" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="ACCION_ACEPTADO" pi="" n="Action Once Accepted" sp="3" tp="3" mtp="2" pr="10" sc="0" or="3" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="NOMBRE_EMPLEADO" pi="" n="Employee Name" sp="3" tp="3" mtp="2" pr="254" sc="0" or="5" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_COMMENT_MSS" pi="" n="Manager Comment" sp="3" tp="3" mtp="2" pr="254" sc="0" or="20" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_ID_DAY_TYPE" pi="" n="Day Type ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="22" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="SCO_NM_DAY_TYPE" pi="" n="Day Type Name" sp="3" tp="3" mtp="2" pr="62" sc="0" or="23" dv="" va="0" vi="1" it="8" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="MAIL_RESPONSABLE" pi="" n="MAIL_RESPONSABLE" sp="3" tp="3" mtp="2" pr="254" sc="0" or="10" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DATE_REQUEST" pi="" n="Request Date" sp="3" tp="3" mtp="5" pr="19" sc="0" or="12" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="STD_OR_HR_PERIOD" pi="" n="HR Period Number" sp="3" tp="3" mtp="6" pr="4" sc="0" or="15" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="MAIL_RESPONSABLE2" pi="" n="MAIL_RESPONSABLE2" sp="3" tp="3" mtp="2" pr="254" sc="0" or="11" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_DAY_NAME" pi="" n="Day Name" sp="3" tp="4" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DATE_VALIDATE" pi="" n="Validation Date" sp="3" tp="3" mtp="5" pr="19" sc="0" or="13" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_DT_END_OF_DAY" pi="" n="Day End Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="28" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_WORK_THEO_HRS" pi="" n="Scheduled Hours Worked" sp="3" tp="3" mtp="6" pr="9" sc="6" or="26" dv="" va="0" vi="1" it="89" ckn="0" cln="0" nn="1" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DAY_TYPE" pi="" n="Day Type" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="STD_ID_PERSON_RESP" pi="" n="Manager ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="8" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DIV_THEOR" pi="" n="Scheduled Timetable" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_DT_START_OF_DAY" pi="" n="Day Start Time" sp="3" tp="3" mtp="5" pr="19" sc="0" or="27" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="STD_ID_PERSON_RESP2" pi="" n="Manager 2 ID" sp="3" tp="3" mtp="2" pr="9" sc="0" or="9" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_ID_DAY_WEEK" pi="" n="Day of the Week" sp="3" tp="4" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_IDS_CLOCK_REASON" pi="" n="Clocking Reason IDs" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="21" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_LONG_MODIFY_CLOCK" pi="" n="Clocking Events to Modify" sp="3" tp="3" mtp="3" pr="-1" sc="0" or="17" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DIV_CLOCKING" pi="" n="Original Clocking" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_TABLE_DAY_DIV" pi="" n="Day" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_MODIFY_CLOCK" pi="" n="Visible Clockings to Modify" sp="3" tp="3" mtp="3" pr="-1" sc="0" or="18" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="PLCO_GET_TRANSLATED_TIMESLOT" pi="" n="Retrieve Day Time Slots" sp="3" tp="4" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_ORIGINAL_CLOCK" pi="" n="Visible Original Clockings" sp="3" tp="3" mtp="3" pr="-1" sc="0" or="29" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="1" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TIMESLOT_PER_1" pi="" n="Time Slots" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="25" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_TEXT_DIV_CLOCKING_REQUEST" pi="" n="Clocking Approved" sp="3" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="SCO_TRANSLATED_TIMESLOT_PERIOD" pi="" n="Time Slots" sp="3" tp="3" mtp="2" pr="2000" sc="0" or="24" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PSCO_LOAD_REQUESTS_ACCEPT" pi="" n="Load Approved Requests" sp="2" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_SET_INFO_TABLE_ACCEPT" pi="LOAD_BLK" n="Set Approved Request Table Information" sp="3" tp="1" mtp="6" pr="18" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+	</node>
+	<node id="PSCO_GTA_EDIT_CLK_ESSMSS_VAR" pn="" pct="0" n="PSCO_GTA_EDIT_CLK_ESSMSS_VAR">
+		<item id="PLCO_CONFIG_ESSMSS_VAR" pi="" n="Variable Configuration Node" sp="1" tp="2" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_HR" pi="" n="HR ID" sp="2" tp="2" mtp="2" pr="9" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GB_NAME" pi="" n="Employee Name" sp="2" tp="2" mtp="2" pr="500" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_NM_ACCION" pi="" n="Action Name" sp="2" tp="2" mtp="2" pr="62" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_CAUSE_ACTION" pi="" n="Action Reason" sp="2" tp="2" mtp="2" pr="500" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GB_NAME_RESP" pi="" n="First-Step Validator Name" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_OR_HR_PERIOD" pi="" n="HR Period No." sp="2" tp="2" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_MODIFY_CLOCKS" pi="" n="Requested Clocking Events" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_GB_NAME_RESP_2" pi="" n="Second-Step Validator Name" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_RESPONSIBLE" pi="" n="First-Step Validator ID" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ORIGINAL_CLOCKS" pi="" n="Original Clocking Events" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_COMMENT_EMPLOYEE" pi="" n="Employee Comment" sp="2" tp="2" mtp="2" pr="9999" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_DAY_MODIFY_CLOCK" pi="" n="Day for which the modification is requested" sp="2" tp="2" mtp="4" pr="10" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_ID_RESPONSIBLE_2" pi="" n="Second-Step Validator ID" sp="2" tp="2" mtp="2" pr="255" sc="0" or="0" dv="" va="0" vi="0" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="END" pi="" n="End Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGIN" pi="" n="Start Date" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="COUNT" pi="" n="COUNT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ISEOF" pi="" n="EOF" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETO" pi="" n="MOVETO" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="LOAD_BLK" pi="" n="Load Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="LOAD_PRG" pi="" n="Load Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ROOTLOAD" pi="" n="Load Root" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="MOVETOEOF" pi="" n="Move to end" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_BLK" pi="" n="Delete Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="DELETE_PRG" pi="" n="Delete Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTEJIT" pi="" n="Run JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="GETCURRENT" pi="" n="GETCURRENT" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_BLK" pi="" n="Add" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="INSERT_PRG" pi="" n="Insert Propagate" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PREPAREJIT" pi="" n="Prepare JIT" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="UPDATE_BLK" pi="" n="Update Block" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="UPDATE_PRG" pi="" n="Propagated Update" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ADDREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXTENDEDLOAD" pi="" n="Extended Load" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="41" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="FINDREGISTER" pi="" n="Find Record" sp="2" tp="1" mtp="6" pr="8" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+			<arg mtp="2"/>
+			<arg mtp="6"/>
+		</item>
+		<item id="PERSIST_TREE" pi="" n="Save Tree" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="1" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="EXECUTELN4JIT" pi="" n="Run JIT LN4" sp="1" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="1" vi="0" it="44" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="2"/>
+		</item>
+		<item id="DELETEREGISTER" pi="" n="Delete Record" sp="3" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="ENDTRANSACTION" pi="" n="End Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="6"/>
+		</item>
+		<item id="INSERTREGISTER" pi="" n="Add Record" sp="2" tp="1" mtp="6" pr="1" sc="0" or="0" dv="" va="0" vi="0" it="43" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="BEGINTRANSACTION" pi="" n="Start Transaction" sp="2" tp="1" mtp="6" pr="4" sc="0" or="0" dv="" va="0" vi="0" it="42" ckn="0" cln="0" nn="0" ab="0" pk="0" ai=""/>
+		<item id="PLCO_REPLACE_VAR" pi="" n="Replace Variables" sp="1" tp="1" mtp="3" pr="-1" sc="0" or="0" dv="" va="0" vi="1" it="1" ckn="0" cln="0" nn="0" ab="0" pk="0" ai="">
+			<arg mtp="3"/>
+		</item>
+	</node>
+</m4obj>
+<dataset>
+</dataset>
+</context>
+</m4xml>
