@@ -3,7 +3,7 @@ import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import * as fs from "fs";
 import { M4Node } from "@automation/m4nodejs/dist/m4Interfaces/M4Node";
 
-describe("GTA - timeslotsclocksdecls suite", ()=>{
+describe("GTA - Time Slots Clock Declarative suite", ()=>{
     
     let globalAny: any;
     let m4Nodejs : M4ApiNode;

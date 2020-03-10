@@ -1,10 +1,9 @@
 import {M4ApiNodejs} from "@automation/m4nodejs"
 import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import * as fs from "fs";
-import { M4Node } from "@automation/m4nodejs/dist/m4Interfaces/M4Node";
 import { GtaEditClockWrapper } from "./wrapper/GtaEditClockWrapper";
 
-describe("GTA - timeslotsclocksdecls with wrapper suite", ()=>{
+describe("GTA - Time Slots Clock Declarative using Wrapper suite", ()=>{
     
     let globalAny: any;
     let m4Nodejs : M4ApiNode;

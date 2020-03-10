@@ -1,7 +1,7 @@
 import {M4ApiNodejs} from "@automation/m4nodejs"
 import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 
-describe("PA - M4JSAPI- Load person suite", ()=>{
+describe("PA - Load All Personal Info suite", ()=>{
     
     let m4Nodejs : M4ApiNode;
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;

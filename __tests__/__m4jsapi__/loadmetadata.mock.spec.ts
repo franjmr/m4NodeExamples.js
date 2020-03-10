@@ -2,7 +2,7 @@ import { M4ApiNodejs } from "@automation/m4nodejs";
 import { M4ApiNode } from "@automation/m4nodejs/dist/m4apiNode";
 import * as fs from "fs";
 
-describe("M4JSAPI - Create Instances Mock", () => {
+describe("M4JSAPI - Create Instances Mock Suite", () => {
 
     let m4ApiNodejs: M4ApiNode ;
 
