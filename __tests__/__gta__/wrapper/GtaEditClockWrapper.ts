@@ -13,14 +13,7 @@ class GtaEditClockWrapper {
     }
 
     /**
-     * 
-     */
-    get_M4Node_TimeSlotsClockDeclaratives(){
-        return this.m4NodeGtaTimeSlotsDeclaratives;
-    }
-
-    /**
-     * Setup M4Object to testing
+     * Setup M4Object
      */
     private initialize() {
         const m4NodeGtaEditClockRwd = this.m4NodeGtaTimeSlotsDeclaratives.getParentNode();
@@ -28,20 +21,32 @@ class GtaEditClockWrapper {
     }
 
     /**
-     * 
+     * Get M4Node 'PLCO_GTA_TIMESLOTS_CLOCKSDECLS' object
      */
-    addTimeslotsClocksDeclarative( times : Array<{dateStartHour: string, dateEndHour: string }> ){
-        times.forEach( (timeItem)=>{
-            this.m4NodeGtaTimeSlotsDeclaratives.addRecord();
-            this.m4NodeGtaTimeSlotsDeclaratives.setValue("PLCO_DT_START_HOUR", new Date(timeItem.dateStartHour));
-            this.m4NodeGtaTimeSlotsDeclaratives.setValue("PLCO_DT_END_HOUR", new Date(timeItem.dateEndHour));
-        })
+    get_M4Node_TimeSlotsClockDeclaratives(){
+        return this.m4NodeGtaTimeSlotsDeclaratives;
     }
 
     /**
-     * 
+     * Add declarative Time slot
+     * @param times 
      */
-    getTotalTimeSlotHours(){
+    addDeclativeTimeSlots( times : Array<{dateStartHour: string, dateEndHour: string }> | any[]){
+        times.forEach( (timeItem)=>{
+            this.m4NodeGtaTimeSlotsDeclaratives.addRecord();
+            if(timeItem.dateStartHour){
+                this.m4NodeGtaTimeSlotsDeclaratives.setValue("PLCO_DT_START_HOUR", new Date(timeItem.dateStartHour));
+            }
+            if(timeItem.dateEndHour){
+                this.m4NodeGtaTimeSlotsDeclaratives.setValue("PLCO_DT_END_HOUR", new Date(timeItem.dateEndHour));
+            }
+        });
+    };
+
+    /**
+     * Get declarative Total time slots hours
+     */
+    getDeclarativeTotalTimeSlotsHours(){
         return this.m4NodeGtaTimeSlotsDeclaratives.getValue("PLCO_TOTAL_TIMESLOTS_HOURS")
     }
 }
