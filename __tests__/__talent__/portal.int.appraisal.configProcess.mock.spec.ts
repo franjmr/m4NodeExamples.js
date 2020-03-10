@@ -5,7 +5,7 @@ import * as fs from "fs";
 import { M4Object } from "@automation/m4nodejs/dist/m4Interfaces/M4Object";
 const moootols = require('mootools');
 
-describe("Mocking - Appraisal Processes - Get Config Process suite", () => {
+describe("Talent - Appraisal Processes - Get Config Process suite", () => {
 
     let globalAny: any;
     let m4ApiNodejs: M4ApiNode ;
