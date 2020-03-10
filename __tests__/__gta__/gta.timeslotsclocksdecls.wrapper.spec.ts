@@ -95,7 +95,7 @@ describe("GTA - timeslotsclocksdecls with wrapper suite", ()=>{
         expect(wrapper.getDeclarativeTotalTimeSlotsHours()).toEqual(0.5);
     });
 
-    it("should not calculate TimePickers with start hour greater than end hour",async()=>{
+    xit("should not calculate TimePickers with start hour greater than end hour",async()=>{
         const times = [
             {dateStartHour: "2018-12-09T00:00:00.000Z", dateEndHour: "2018-12-08T23:30:00.000Z"}, 
         ]
