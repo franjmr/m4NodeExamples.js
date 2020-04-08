@@ -7,9 +7,9 @@ describe("PA - Load All Personal Info suite", ()=>{
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
     
     beforeAll(async()=>{
-        m4Nodejs = await M4ApiNodejs("http://drogo.meta4.com:9020","USUTRANING_MAN_ESP","RUN");
+        m4Nodejs = await M4ApiNodejs("http://jonsnow.meta4.com:13020","JFNMANAGER","A123123a*");
         await m4Nodejs.logon();
-        m4Nodejs.enableConsoleMessages();
+        m4Nodejs.disableConsoleMessages();
     })
 
     afterAll(async()=>{
